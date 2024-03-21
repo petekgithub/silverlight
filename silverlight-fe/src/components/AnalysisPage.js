@@ -61,6 +61,19 @@ const AnalysisPage = () => {
               <div key={index}>
                 <button
                   className="analyzing-target-button"
+                  style={{
+                    backgroundColor: "#c5c5c5",
+                    color: "#007bff", // Blue color for link
+                    border: "none",
+                    textAlign: "left", // Align text to the left
+                    cursor: "pointer",
+                    textDecoration: "underline",
+                    padding: "0", // Remove padding to make it look like a link
+                    marginBottom: "5px",
+                    display: "block", // Make each button occupy the full width
+                    width: "100%", // Make each button occupy the full width
+                    height: "2rem",
+                  }}
                   onClick={() => handleTargetClick(target)}
                 >
                   {target}
