@@ -2,33 +2,33 @@ const express = require("express");
 const axios = require("axios").default;
 const router = express.Router();
 
-// Regex for URL validation
-const urlRegex =
-  /^(https?:\/\/)?([\w-]+\.)*([\w-]+\.)([\w]{2,})([\w\/+=%&_\.~?\-]*)$/;
-
 // Endpoint for URL validation and analysis
 router.post("/", async (req, res) => {
   const { url } = req.body;
 
   // Validate URL
+  const urlRegex =
+    /^(https?:\/\/)?([\w-]+\.)*([\w-]+\.)([\w]{2,})([\w\/+=%&_\.~?\-]*)$/;
   if (!urlRegex.test(url)) {
     return res.status(400).json({ error: "Invalid URL" });
   }
 
-  const apiKey = process.env.API_KEY;
+  // API key for builtwith.com
+  const apiKey = process.env.BUILTWITH_API_KEY;
 
   try {
-    // Analyze website using Scraper API
-    const response = await axios.post(
-      `http://api.scraperapi.com/?api_key=${apiKey}`,
-      { url: url }
-    );
+    // Make request to builtwith.com API
+    const response = await axios.get("https://api.builtwith.com/v19/api.json", {
+      params: {
+        KEY: apiKey,
+        LOOKUP: url,
+      },
+    });
 
-    // Extract technology information and page count from the response
-    const technologies = response.data.applications.map((app) => app.name);
-    const pageCount = response.data.pageCount;
+    // Extract technology information from the response
+    const technologies = response.data.Results.map((result) => result.Name);
 
-    return res.status(200).json({ success: true, technologies, pageCount });
+    return res.status(200).json({ success: true, technologies });
   } catch (error) {
     console.error(error);
     return res
