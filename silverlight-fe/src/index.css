@@ -1,7 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Tailwind CSS base, components, and utilities are already included */
+/* Import Tailwind CSS styles */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
+/* Your custom styles below */
+
+/* Additional custom styles */
 body {
   font-family: "Poppins", sans-serif;
   color: #444;
@@ -13,54 +18,44 @@ body {
 .container {
   max-width: 50rem;
   margin: 2rem auto;
-  display: grid;
-  gap: 1rem;
-  transition: all 1s;
-  position: relative;
+  border: 1px solid black;
+  padding: 1rem;
 }
 
-.input {
-  height: 2rem;
-  border-radius: 0.3rem;
-}
-
-/* Sayfanın alt kısmına yerleştirmek için */
-.btn-analyse {
-  align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
-  background: #4352d1;
-  color: #fff;
-  max-width: 50rem;
-  height: 2rem;
-  cursor: pointer;
-  border-radius: 0.3rem;
-}
-
-.text {
+h2 {
   font-weight: bold;
-  color: rgb(24, 11, 138);
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 1rem;
 }
 
-/* Responsive stiller */
-@media (max-width: 768px) {
-  .container {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 1rem auto;
-  }
+h3 {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #000;
+  margin: 3rem 0 1rem 0;
+}
+.input {
+  width: 100%; /* Make the input field full-width */
+  padding: 0.5rem; /* Adjust padding as needed */
+  margin-bottom: 1rem; /* Add margin at the bottom for spacing */
+}
 
-  .btn-analyse {
-    grid-column: 1 / span 2;
-  }
+.btn-analyse {
+  width: 100%; /* Make the button full-width */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 0.25rem; /* Adjust border-radius as needed */
+  color: #f0f0f0;
+  background-color: rgb(24, 11, 138);
+  cursor: pointer; /* Add cursor pointer for better usability */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  /* Add responsive styles if needed */
 }
 
 @media (max-width: 480px) {
-  .container {
-    grid-template-columns: 1fr;
-  }
-
-  .btn-analyse {
-    grid-column: 1;
-    grid-row: 7;
-  }
+  /* Add responsive styles if needed */
 }
