@@ -7,10 +7,11 @@ const AnalysisPage = () => {
   const [analyzingTargets, setAnalyzingTargets] = useState([]);
   const [showAnalyzingTargets, setShowAnalyzingTargets] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
+  const [viewMoreUrl, setViewMoreUrl] = useState("");
 
   const handleChange = (e) => {
     const inputUrl = e.target.value;
-    console.log("Input URL:", inputUrl); // Debug logging
+    //console.log("Input URL:", inputUrl); // Debug logging
     setUrl(inputUrl);
     if (inputUrl.trim() !== "") {
       validate(inputUrl); // Call validate with the input URL if it's not empty
@@ -69,6 +70,7 @@ const AnalysisPage = () => {
       setAnalyzingTargets([...analyzingTargets, url]);
       setShowAnalyzingTargets(true); // Show the "Analyzing Targets" heading
       setUrl(""); // Clear the input field after adding the URL to the list
+      setViewMoreUrl(url); // Set URL for "View More" link
     } catch (error) {
       console.error("Error analyzing website:", error);
     }
@@ -107,22 +109,19 @@ const AnalysisPage = () => {
               <div key={index}>
                 <button
                   className="analyzing-target-button"
-                  style={{
-                    backgroundColor: "#c5c5c5",
-                    color: "#007bff", // Blue color for link
-                    border: "none",
-                    textAlign: "left", // Align text to the left
-                    cursor: "pointer",
-                    textDecoration: "underline",
-                    padding: "0", // Remove padding to make it look like a link
-                    marginBottom: "5px",
-                    display: "block", // Make each button occupy the full width
-                    width: "100%", // Make each button occupy the full width
-                    height: "2rem",
-                  }}
                   onClick={() => handleTargetClick(target)}
                 >
-                  {target}
+                  <span>{target}</span>
+                  {viewMoreUrl && (
+                    <a
+                      href="/analysis-detail"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="view-more-link"
+                    >
+                      View More
+                    </a>
+                  )}
                 </button>
               </div>
             ))}

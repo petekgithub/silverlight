@@ -50,7 +50,23 @@ h3 {
   background-color: rgb(24, 11, 138);
   cursor: pointer; /* Add cursor pointer for better usability */
 }
+.analyzing-target-button {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between items */
+  background-color: #c5c5c5;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  margin-bottom: 5px; /* Add margin at the bottom for spacing */
+  width: 100%; /* Make button full-width */
+}
 
+.view-more-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
 /* Responsive */
 @media (max-width: 768px) {
   /* Add responsive styles if needed */
