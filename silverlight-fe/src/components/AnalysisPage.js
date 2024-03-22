@@ -1,19 +1,64 @@
 import React, { useState } from "react";
 import axios from "axios";
+import validator from "validator";
 
 const AnalysisPage = () => {
   const [url, setUrl] = useState("");
   const [analyzingTargets, setAnalyzingTargets] = useState([]);
   const [showAnalyzingTargets, setShowAnalyzingTargets] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleChange = (e) => {
     const inputUrl = e.target.value;
     console.log("Input URL:", inputUrl); // Debug logging
     setUrl(inputUrl);
+    if (inputUrl.trim() !== "") {
+      validate(inputUrl); // Call validate with the input URL if it's not empty
+    }
+  };
+
+  const validate = (value) => {
+    if (!value) {
+      setErrorMessage("Please enter a URL");
+      return;
+    }
+
+    let urlToValidate = value;
+    if (!value.startsWith("http://") && !value.startsWith("https://")) {
+      // Prepend "http://" if the URL doesn't start with a protocol
+      urlToValidate = "http://" + value;
+    }
+
+    const isValidURL = validator.isURL(urlToValidate);
+
+    if (!isValidURL) {
+      setErrorMessage("Invalid URL");
+      return;
+    }
+
+    const domain = value.replace(/(^\w+:|^)\/\//, ""); // Extract the domain part
+    const isValidDomain = validator.isFQDN(domain, {
+      require_tld: false, // Don't require top-level domain (TLD)
+      allow_underscores: true, // Allow underscores in domain names
+    });
+
+    if (!isValidDomain) {
+      setErrorMessage("Invalid Domain");
+      return;
+    }
+
+    setErrorMessage(""); // Clear error message if URL is valid
   };
 
   const handleAnalyse = async (e) => {
     e.preventDefault();
+
+    // Validate URL
+    if (!validator.isURL(url)) {
+      setErrorMessage("Invalid URL");
+      return; // Exit function if URL is invalid
+    }
+
     // Analyze URL
     try {
       const response = await axios.post("http://localhost:3000/analyze", {
@@ -45,10 +90,11 @@ const AnalysisPage = () => {
           value={url}
           onChange={handleChange}
         />
+        <span style={{ fontWeight: "bold", color: "red" }}>{errorMessage}</span>
         <button
           className="btn-analyse"
           type="submit"
-          disabled={!url} // Disable button if URL is empty
+          disabled={!url || errorMessage === "Invalid URL"} // Disable button if URL is empty or invalid
         >
           Analyse
         </button>
