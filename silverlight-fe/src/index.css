@@ -87,6 +87,18 @@ h3 {
   border: 1px solid #fff;
 }
 
+.found {
+  background-color: #c5c5c5;
+  color: #313030;
+  width: 20%;
+  height: 2.5rem;
+}
+
+.techs {
+  background-color: #c5c5c5;
+  color: #313030;
+  width: 100%;
+}
 /* Responsive */
 @media (max-width: 768px) {
   /* Add responsive styles if needed */

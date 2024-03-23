@@ -28,7 +28,7 @@ const UrlInput = ({ onSubmit }) => {
       return;
     }
 
-    onSubmit(urlToValidate);
+    onSubmit(urlToValidate); // Pass the validated URL to the parent component for analysis
     setUrl("");
     setErrorMessage("");
   };
