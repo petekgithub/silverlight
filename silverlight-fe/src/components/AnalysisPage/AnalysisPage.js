@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import validator from "validator";
 import Pagination from "./Pagination";
+import UrlInput from "./UrlInput";
 
 const AnalysisPage = () => {
   const [url, setUrl] = useState("");
@@ -101,23 +102,13 @@ const AnalysisPage = () => {
   return (
     <div className="container">
       <h2>SilverLight</h2>
-      <form onSubmit={handleAnalyse}>
-        <input
-          className="input"
-          type="text"
-          placeholder="Enter URL to analyze"
-          value={url}
-          onChange={handleChange}
-        />
-        <span style={{ fontWeight: "bold", color: "red" }}>{errorMessage}</span>
-        <button
-          className="btn-analyse"
-          type="submit"
-          disabled={!url || errorMessage === "Invalid URL"}
-        >
-          Analyse
-        </button>
-      </form>
+      <UrlInput
+        value={url}
+        onSubmit={handleAnalyse}
+        onChange={handleChange}
+        errorMessage={errorMessage}
+        disabled={!url || errorMessage === "Invalid URL"}
+      />
       {currentUrls.length > 0 && (
         <div className="analyzing-targets">
           <h3>Analyzing Targets</h3>
