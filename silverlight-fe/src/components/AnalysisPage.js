@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import axios from "axios";
 import validator from "validator";
+import Pagination from "./Pagination";
 
 const AnalysisPage = () => {
   const [url, setUrl] = useState("");
   const [analyzingTargets, setAnalyzingTargets] = useState([]);
   const [loadingStates, setLoadingStates] = useState({});
   const [errorMessage, setErrorMessage] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const urlsPerPage = 3;
 
   const handleChange = (e) => {
     const inputUrl = e.target.value;
@@ -86,6 +89,15 @@ const AnalysisPage = () => {
     setUrl("");
   };
 
+  const handlePagination = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  // Get current urls
+  const indexOfLastUrl = currentPage * urlsPerPage;
+  const indexOfFirstUrl = indexOfLastUrl - urlsPerPage;
+  const currentUrls = analyzingTargets.slice(indexOfFirstUrl, indexOfLastUrl);
+
   return (
     <div className="container">
       <h2>SilverLight</h2>
@@ -106,11 +118,11 @@ const AnalysisPage = () => {
           Analyse
         </button>
       </form>
-      {analyzingTargets.length > 0 && (
+      {currentUrls.length > 0 && (
         <div className="analyzing-targets">
           <h3>Analyzing Targets</h3>
           <div className="buttons-container">
-            {analyzingTargets.map((target, index) => (
+            {currentUrls.map((target, index) => (
               <div key={index}>
                 <button className="analyzing-target-button">
                   <span>{target}</span>
@@ -129,6 +141,12 @@ const AnalysisPage = () => {
               </div>
             ))}
           </div>
+          <Pagination
+            urlsPerPage={urlsPerPage}
+            totalUrls={analyzingTargets.length}
+            currentPage={currentPage}
+            handlePagination={handlePagination}
+          />
         </div>
       )}
     </div>

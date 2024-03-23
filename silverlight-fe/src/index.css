@@ -67,6 +67,26 @@ h3 {
   cursor: pointer;
   text-decoration: underline;
 }
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.pagination button {
+  padding: 8px;
+}
+
+.active {
+  background-color: #c5c5c5;
+  color: #313030;
+  border: 1px solid #fff;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   /* Add responsive styles if needed */
