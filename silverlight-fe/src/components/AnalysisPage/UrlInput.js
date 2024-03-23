@@ -1,16 +1,50 @@
-const UrlInput = ({ value, onChange, errorMessage, onSubmit, disabled }) => {
+import React, { useState } from "react";
+import validator from "validator";
+
+const UrlInput = ({ onSubmit }) => {
+  const [url, setUrl] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleChange = (e) => {
+    const inputUrl = e.target.value;
+    setUrl(inputUrl);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!url) {
+      setErrorMessage("Please enter a URL");
+      return;
+    }
+
+    let urlToValidate = url;
+    if (!url.startsWith("http://") && !url.startsWith("https://")) {
+      urlToValidate = "http://" + url;
+    }
+
+    if (!validator.isURL(urlToValidate)) {
+      setErrorMessage("Invalid URL");
+      return;
+    }
+
+    onSubmit(urlToValidate);
+    setUrl("");
+    setErrorMessage("");
+  };
+
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={handleSubmit}>
       <input
         className="input"
         type="text"
         placeholder="Enter URL to analyze"
-        value={value}
-        onChange={onChange}
+        value={url}
+        onChange={handleChange}
       />
       <span style={{ fontWeight: "bold", color: "red" }}>{errorMessage}</span>
-      <button className="btn-analyse" type="submit" disabled={disabled}>
-        Analyse
+      <button className="btn-analyse" type="submit">
+        Analyze
       </button>
     </form>
   );

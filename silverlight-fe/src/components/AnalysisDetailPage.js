@@ -18,7 +18,7 @@ const AnalysisDetailPage = () => {
       >
         Back
       </a>
-      <h2>epctexc.com Results</h2>
+      <h2>epctex.com Results</h2>
       {/* Display information about the technologies and link count */}
       <p>Technologies: [List of technologies]</p>
       <p>Number of Links: [Link count]</p>
