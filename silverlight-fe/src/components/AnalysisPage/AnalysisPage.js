@@ -3,6 +3,7 @@ import axios from "axios";
 import validator from "validator";
 import Pagination from "./Pagination";
 import UrlInput from "./UrlInput";
+import TargetList from "./TargetList";
 
 const AnalysisPage = () => {
   const [url, setUrl] = useState("");
@@ -111,27 +112,7 @@ const AnalysisPage = () => {
       />
       {currentUrls.length > 0 && (
         <div className="analyzing-targets">
-          <h3>Analyzing Targets</h3>
-          <div className="buttons-container">
-            {currentUrls.map((target, index) => (
-              <div key={index}>
-                <button className="analyzing-target-button">
-                  <span>{target}</span>
-                  {loadingStates[target] && <span>Analysing...</span>}
-                  {!loadingStates[target] && (
-                    <a
-                      href="/analysis-detail"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="view-more-link"
-                    >
-                      View More
-                    </a>
-                  )}
-                </button>
-              </div>
-            ))}
-          </div>
+          <TargetList targets={currentUrls} loadingStates={loadingStates} />
           <Pagination
             urlsPerPage={urlsPerPage}
             totalUrls={analyzingTargets.length}
