@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const TargetList = ({ targets, loadingStates }) => {
   return (
     <div className="analyzing-targets">
@@ -22,14 +24,12 @@ const TargetButton = ({ target, loading }) => {
         <span>{target}</span>
         {loading && <span>Analysing...</span>}
         {!loading && (
-          <a
-            href="/analysis-detail"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to={`/analysis-detail?url=${encodeURIComponent(target)}`} // Pass the target's URL as a parameter
             className="view-more-link"
           >
             View More
-          </a>
+          </Link>
         )}
       </button>
     </div>

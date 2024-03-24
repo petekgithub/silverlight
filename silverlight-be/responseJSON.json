@@ -1,0 +1,3356 @@
+[
+  {
+    "Result": {
+      "IsDB": "True",
+      "Spend": 5120,
+      "Paths": [
+        {
+          "Technologies": [
+            {
+              "Categories": [
+                "Dedicated Hosting",
+                "Shared Hosting",
+                "US hosting",
+                "VPS Hosting"
+              ],
+              "Name": "GoDaddy",
+              "Description": "Global hosting and domain registration provider led by Bob Parsons.",
+              "Link": "http://www.godaddy.com",
+              "Tag": "hosting",
+              "FirstDetected": 1464476400000,
+              "LastDetected": 1467327600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "ASP.NET",
+              "Description": "ASP.NET is a web application framework marketed by Microsoft that programmers can use to build dynamic web sites, web applications and XML web services. It is part of Microsoft's .NET platform and is the successor to Microsoft's Active Server Pages (ASP) technology.",
+              "Link": "https://www.asp.net",
+              "Tag": "framework",
+              "FirstDetected": 1464476400000,
+              "LastDetected": 1467327600000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "ASP.NET",
+              "Name": "ASP.NET 4.0",
+              "Description": "ASP.NET version 4.0.*",
+              "Link": "https://www.microsoft.com/net",
+              "Tag": "framework",
+              "FirstDetected": 1464476400000,
+              "LastDetected": 1467327600000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "IIS",
+              "Name": "IIS 7",
+              "Description": "Internet-based services for servers using Microsoft Windows.",
+              "Link": "https://www.iis.net",
+              "Tag": "Web Server",
+              "FirstDetected": 1464476400000,
+              "LastDetected": 1467327600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "IIS",
+              "Description": "This website is running on a Microsoft IIS Server solution.",
+              "Link": "http://www.microsoft.com/servers/home.mspx",
+              "Tag": "Web Server",
+              "FirstDetected": 1464476400000,
+              "LastDetected": 1467327600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "GoDaddy DNS",
+              "Description": "DNS services provided by GoDaddy.",
+              "Link": "http://godaddy.com",
+              "Tag": "ns",
+              "FirstDetected": 1467327600000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "SPF",
+              "Description": "The Sender Policy Framework is an open standard specifying a technical method to prevent sender address forgery.",
+              "Link": "http://www.open-spf.org/",
+              "Tag": "mx",
+              "FirstDetected": 1467327600000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Business Email Hosting"],
+              "Name": "Google Apps for Business",
+              "Description": "Web-based email, calendar, and documents for teams. Renamed to Google Apps for Work, but now known as G Suite from Google Cloud.",
+              "Link": "http://www.google.com/a",
+              "Tag": "mx",
+              "FirstDetected": 1467327600000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["JavaScript Library"],
+              "Name": "jQuery",
+              "Description": "JQuery is a fast, concise, JavaScript Library that simplifies how you traverse HTML documents, handle events, perform animations, and add Ajax interactions to your web pages. jQuery is designed to change the way that you write JavaScript.",
+              "Link": "https://jquery.com",
+              "Tag": "javascript",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "jQuery",
+              "Name": "jQuery 1.7.2",
+              "Description": "jQuery version 1.7.2",
+              "Link": "https://blog.jquery.com/2012/03/21/jquery-1-7-2-released/",
+              "Tag": "javascript",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "jQuery",
+              "Categories": ["jQuery Plugin"],
+              "Name": "jQuery NoConflict",
+              "Description": "Return control of $ back to the other libraries with a call to $.noConflict().",
+              "Link": "https://api.jquery.com/jQuery.noConflict/",
+              "Tag": "javascript",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Google Hosted Libraries",
+              "Description": "Google Hosted Libraries is a globally available content distribution network for the most popular, open-source JavaScript libraries.",
+              "Link": "https://developers.google.com/speed/libraries/",
+              "Tag": "javascript",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Shopify App", "Non Platform"],
+              "Name": "Shopify Product Reviews",
+              "Description": "Product reviews plugin from Shopify for Shopify sites.",
+              "Link": "https://docs.shopify.com/manual/more/official-shopify-apps/product-reviews",
+              "Tag": "shop",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1554073200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "nginx",
+              "Description": "nginx [engine x] is a HTTP server and mail proxy server written by Igor Sysoev.",
+              "Link": "https://nginx.net/",
+              "Tag": "Web Server",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1633158000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Compatibility"],
+              "Name": "Modernizr",
+              "Description": "Modernizr allows you to target specific browser functionality in your stylesheet.",
+              "Link": "https://www.modernizr.com",
+              "Tag": "javascript",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1703404800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Fonts"],
+              "Name": "Google Font API",
+              "Description": "The Google Font API helps you add web fonts to any web page.",
+              "Link": "https://fonts.google.com",
+              "Tag": "widgets",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Live Chat"],
+              "Name": "Pure Chat",
+              "Description": "Free Live Chat Service.",
+              "Link": "https://www.purechat.com",
+              "Tag": "widgets",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1507878000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "jQuery",
+              "Name": "jQuery 1.11.0",
+              "Description": "jQuery version 1.11.0",
+              "Link": "https://blog.jquery.com/2014/01/24/jquery-1-11-and-2-1-released/",
+              "Tag": "javascript",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1507878000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": [
+                "Application Performance",
+                "Audience Measurement",
+                "Visitor Count Tracking"
+              ],
+              "Name": "Google Analytics",
+              "Description": "Google Analytics offers a host of compelling features and benefits for everyone from senior executives and advertising and marketing professionals to site owners and content developers.",
+              "Link": "https://google.com/analytics",
+              "Tag": "analytics",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Google Hosted Libraries",
+              "Name": "Google Hosted jQuery",
+              "Description": "jQuery hosted at Google.",
+              "Link": "https://developers.google.com/speed/libraries/",
+              "Tag": "javascript",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform"],
+              "Name": "Shopify Conversions",
+              "Description": "This Shopify instance uses Shopify's analytics object to load tools like Google Analytics.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Ruby on Rails",
+              "Description": "Ruby on Rails is an open-source web framework that is optimized for programmer happiness and sustainable productivity.",
+              "Link": "https://www.rubyonrails.org/",
+              "Tag": "framework",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1599634800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Google Analytics",
+              "Name": "Google Universal Analytics",
+              "Description": "The analytics.js JavaScript snippet is a new way to measure how users interact with your website. It is similar to the previous Google tracking code, ga.js, but offers more flexibility for developers to customize their implementations.",
+              "Link": "https://developers.google.com/analytics/devguides/collection/analyticsjs/",
+              "Tag": "analytics",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Feedback Forms and Surveys"],
+              "Name": "MailChimp",
+              "Description": "MailChimp is a widely used Mailng List delivery and support service.",
+              "Link": "https://www.mailchimp.com",
+              "Tag": "widgets",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1560812400000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify Currency"],
+              "Name": "Shopify US Dollar",
+              "Description": "Shopify website which defaults to US dollar currency. USD is also used  American Samoa,  British Indian Ocean Territory (also GBP),  British Virgin Islands,  Caribbean Netherlands ad Ecuador.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Viewport Meta",
+              "Description": "This page uses the viewport meta tag which means the content may be optimized for mobile content.",
+              "Link": "https://developers.google.com/speed/docs/insights/ConfigureViewport",
+              "Tag": "mobile",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "AJAX Libraries API",
+              "Description": "The AJAX Libraries API is a content distribution network and loading architecture for the most popular, open source JavaScript libraries.",
+              "Link": "https://code.google.com/apis/ajaxlibs/documentation/",
+              "Tag": "cdn",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Hosted Solution"],
+              "Name": "Shopify",
+              "Description": "Hosted shopping experience with multiple themes and requires very little programming experience.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "CDN JS",
+              "Description": "CloudFlare's CDN with popular javascript frameworks available.",
+              "Link": "https://cdnjs.com",
+              "Tag": "cdn",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Root Authority"],
+              "Name": "LetsEncrypt",
+              "Description": "Let’s Encrypt is a free open Certificate Authority.",
+              "Link": "https://letsencrypt.org",
+              "Tag": "ssl",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Mobile"],
+              "Name": "FastClick",
+              "Description": "Polyfill to remove click delays on browsers with touch UIs.",
+              "Link": "https://labs.ft.com",
+              "Tag": "widgets",
+              "FirstDetected": 1470870000000,
+              "LastDetected": 1485990000000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "DoubleClick.Net",
+              "Description": "DoubleClick enables agencies, marketers and publishers to work together successfully and profit from their digital marketing investments.",
+              "Link": "https://www.doubleclick.com",
+              "Tag": "ads",
+              "FirstDetected": 1470870000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Retargeting / Remarketing"],
+              "Name": "Facebook Custom Audiences",
+              "Description": "Custom Audiences from your website makes it possible to reach people who visit your website and deliver the right message to them on Facebook.",
+              "Link": "https://developers.facebook.com/docs/reference/ads-api/custom-audience-website",
+              "Tag": "ads",
+              "FirstDetected": 1470870000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Framework"],
+              "Name": "Handlebars",
+              "Description": "Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.",
+              "Link": "https://handlebarsjs.com/",
+              "Tag": "javascript",
+              "FirstDetected": 1470870000000,
+              "LastDetected": 1602572400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Social Sharing"],
+              "Name": "Instagram API",
+              "Description": "This website makes calls to the Instagram API.",
+              "Link": "https://www.instagram.com/developer/",
+              "Tag": "widgets",
+              "FirstDetected": 1470870000000,
+              "LastDetected": 1504393200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Facebook SDK",
+              "Description": " JavaScript SDK enables you to access all of the features of the Graph API via JavaScript, and it provides a rich set of client-side functionality for authentication and sharing. It differs from Facebook Connect.",
+              "Link": "https://developers.facebook.com/docs/reference/javascript/",
+              "Tag": "javascript",
+              "FirstDetected": 1470870000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Facebook for Websites",
+              "Description": "Allows a user to make a website more sociable and connected with integrations from the hugely popular Facebook website.",
+              "Link": "https://developers.facebook.com/",
+              "Tag": "javascript",
+              "FirstDetected": 1470870000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["JavaScript Library"],
+              "Name": "Enquire JS",
+              "Description": "enquire.js is a lightweight, pure JavaScript library for responding to CSS media queries.",
+              "Link": "https://wicky.nillia.ms/enquire.js/",
+              "Tag": "javascript",
+              "FirstDetected": 1470870000000,
+              "LastDetected": 1504393200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Root Authority"],
+              "Name": "DigiCert SSL",
+              "Description": "Certificate provided by DigiCert.",
+              "Link": "https://www.digicert.com/",
+              "Tag": "ssl",
+              "FirstDetected": 1482879600000,
+              "LastDetected": 1482879600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Azure Edge",
+              "Description": "Content delivered via Azure Edge Network",
+              "Link": "http://azureedge.net",
+              "Tag": "cdn",
+              "FirstDetected": 1485990000000,
+              "LastDetected": 1504393200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "GStatic Google Static Content",
+              "Description": "Google has off-loaded static content (Javascript/Images/CSS) to a different domain name in an effort to reduce bandwidth usage and increase network performance for the end user.",
+              "Link": "https://google.com",
+              "Tag": "cdn",
+              "FirstDetected": 1485990000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["eCommerce", "Feedback Forms and Surveys"],
+              "Name": "Zotabox",
+              "Description": "Onsite marketing tools.",
+              "Link": "https://zotabox.com",
+              "Tag": "widgets",
+              "FirstDetected": 1488582000000,
+              "LastDetected": 1523228400000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "Copyright Year 2016",
+              "Description": "Webpage has a copyright year of 2016 with no detectable mention of the current year.",
+              "Link": "https://en.wikipedia.org/wiki/Copyright",
+              "Tag": "copyright",
+              "FirstDetected": 1488582000000,
+              "LastDetected": 1488582000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Framework"],
+              "Name": "core-js",
+              "Description": "Modular standard library for JavaScript.",
+              "Link": "https://github.com/zloirock/core-js",
+              "Tag": "javascript",
+              "FirstDetected": 1494025200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Conversion Optimization"],
+              "Name": "Bold Commerce",
+              "Description": "Shopify app development and partner to help increase sales. Previously Shappify.",
+              "Link": "https://boldcommerce.com/",
+              "Tag": "analytics",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1620543600000,
+              "IsPremium": "yes"
+            },
+            {
+              "Categories": ["Conversion Optimization", "Marketing Automation"],
+              "Name": "Beeketing",
+              "Description": "A platform of marketing apps for online stores.",
+              "Link": "https://beeketing.com",
+              "Tag": "analytics",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1566774000000,
+              "IsPremium": "yes"
+            },
+            {
+              "Parent": "Shopify",
+              "Name": "Shopify Professional",
+              "Description": "Shopify Professional Version",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1499727600000,
+              "LastDetected": 1517698800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Compatibility"],
+              "Name": "Respond",
+              "Description": "A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)",
+              "Link": "https://github.com/scottjehl/Respond",
+              "Tag": "javascript",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1507878000000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Facebook Signal",
+              "Description": "Journalists use Signal to surface relevant trends, photos, videos and posts from Facebook and Instagram for use in their storytelling and reporting.",
+              "Link": "https://www.facebook.com/facebookmedia/get-started/signal",
+              "Tag": "analytics",
+              "FirstDetected": 1504306800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Canadian hosting"],
+              "Name": "Shopify Hosted",
+              "Description": "The IP of this system is on Shopify.",
+              "Link": "https://shopify.com",
+              "Tag": "hosting",
+              "FirstDetected": 1507244400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "MSN/Bing Webmaster",
+              "Description": "Site registered at MSN/Bing Webmaster.",
+              "Link": "https://webmaster.live.com",
+              "Tag": "Web Master",
+              "FirstDetected": 1510095600000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "POWr for Shopify",
+              "Description": "POWr plugins for Shopify.",
+              "Link": "https://apps.shopify.com/partners/powr-io",
+              "Tag": "shop",
+              "FirstDetected": 1507845600000,
+              "LastDetected": 1523228400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Login"],
+              "Name": "ID Services",
+              "Description": "ID verification services system.",
+              "Link": "https://id.services/",
+              "Tag": "widgets",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1529362800000,
+              "IsPremium": "yes"
+            },
+            {
+              "Categories": ["Affiliate Programs"],
+              "Name": "Refersion",
+              "Description": "Affiliate tracking management program.",
+              "Link": "https://refersion.com",
+              "Tag": "ads",
+              "FirstDetected": 1510095600000,
+              "LastDetected": 1532127600000,
+              "IsPremium": "yes"
+            },
+            {
+              "Categories": ["eCommerce"],
+              "Name": "Microdata for Google Shopping",
+              "Description": "Microdata for adding products to Google Shopping.",
+              "Link": "https://support.google.com/merchants/answer/6069143?hl=en-AU",
+              "Tag": "widgets",
+              "FirstDetected": 1510095600000,
+              "LastDetected": 1649660400000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Refersion for Shopify",
+              "Description": "Affiliate tracking system.",
+              "Link": "https://apps.shopify.com/partners/aleksandr",
+              "Tag": "shop",
+              "FirstDetected": 1510095600000,
+              "LastDetected": 1532127600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Facebook Pixel",
+              "Description": "Facebook Pixel is Facebooks conversion tracking system for ads on Facebook to websites.",
+              "Link": "https://www.facebook.com/business/help/952192354843755",
+              "Tag": "analytics",
+              "FirstDetected": 1510095600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Mobile Optimized",
+              "Description": "Microsoft invented the MobileOptimized META tag to control the layout width for mobile markup rendered in Internet Explorer Mobile.",
+              "Link": "http://msdn.microsoft.com/en-us/library/bb159711.aspx",
+              "Tag": "mobile",
+              "FirstDetected": 1510095600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Feedback Forms and Surveys", "Social Sharing"],
+              "Name": "POWr",
+              "Description": "Plugins for websites including social, galleries, forms etc..",
+              "Link": "https://powr.io",
+              "Tag": "widgets",
+              "FirstDetected": 1507845600000,
+              "LastDetected": 1523228400000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "ID Services for Shopify",
+              "Description": "Military/First Responder/Student and Teacher Discount system for Shopify.",
+              "Link": "https://apps.shopify.com/partners/gruntroll-inc",
+              "Tag": "shop",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1529362800000,
+              "IsPremium": "yes"
+            },
+            {
+              "Categories": [
+                "Conversion Optimization",
+                "Retargeting / Remarketing"
+              ],
+              "Name": "Bing Universal Event Tracking",
+              "Description": "Universal Event Tracking (UET) is a simple and powerful campaign measurement solution that allows you to track key conversion goals important to your business.",
+              "Link": "https://advertise.bingads.microsoft.com/en-us/universal-event-tracking",
+              "Tag": "analytics",
+              "FirstDetected": 1510095600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Beeketing for Shopify",
+              "Description": "Salespop / Countdown Cart and Facebook Chat functionality for Shopify from Beeketing.",
+              "Link": "https://apps.shopify.com/partners/brodev",
+              "Tag": "shop",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1555542000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Marketing Automation", "WordPress Plugins"],
+              "Name": "Privy",
+              "Description": "Tools to grow your email list by using website banners, popups and exit intent.",
+              "Link": "https://privy.com",
+              "Tag": "widgets",
+              "FirstDetected": 1507845600000,
+              "LastDetected": 1710226800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Privy for Shopify",
+              "Description": "Free email popups with exit intent for Shopify.",
+              "Link": "https://apps.shopify.com/partners/privy",
+              "Tag": "shop",
+              "FirstDetected": 1507845600000,
+              "LastDetected": 1710226800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Google Webmaster",
+              "Description": "Webmaster tools provide you with a free and easy way to make your site more Google-friendly.",
+              "Link": "https://www.google.com/webmasters/",
+              "Tag": "Web Master",
+              "FirstDetected": 1510095600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Payment Acceptance"],
+              "Name": "Apple Pay",
+              "Description": "The website accepts payments with Apple Pay.",
+              "Link": "https://apple.com/apple-pay/",
+              "Tag": "payment",
+              "FirstDetected": 1512342000000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "jQuery",
+              "Name": "jQuery 1.10.2",
+              "Description": "jQuery version 1.10.2",
+              "Link": "https://blog.jquery.com/2013/07/03/jquery-1-10-2-and-2-0-3-released/",
+              "Tag": "javascript",
+              "FirstDetected": 1514329200000,
+              "LastDetected": 1554073200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "MailChimp for Shopify",
+              "Description": "Connect your Shopify store with your MailChimp account.",
+              "Link": "https://apps.shopify.com/mailchimp",
+              "Tag": "shop",
+              "FirstDetected": 1522710000000,
+              "LastDetected": 1560812400000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "Webpack",
+              "Description": "webpack takes modules with dependencies and generates static assets representing those modules.",
+              "Link": "https://webpack.github.io/",
+              "Tag": "javascript",
+              "FirstDetected": 1524524400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "SumoMe",
+              "Description": "A script toolkit which allows users to install a growing number of apps on their site.",
+              "Link": "https://sumome.com/",
+              "Tag": "widgets",
+              "FirstDetected": 1524524400000,
+              "LastDetected": 1549321200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Marketing Automation"],
+              "Name": "Gleam",
+              "Description": "Marketing apps for websites.",
+              "Link": "http://gleam.io",
+              "Tag": "analytics",
+              "FirstDetected": 1524524400000,
+              "LastDetected": 1524610800000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "RequireJS",
+              "Description": "RequireJS is a JavaScript file and module loader.",
+              "Link": "https://requirejs.org/",
+              "Tag": "javascript",
+              "FirstDetected": 1524524400000,
+              "LastDetected": 1549321200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Shopify App", "Non Platform"],
+              "Name": "SumoMe for Shopify",
+              "Description": "Increase your email subscribers with smart popups. Heatmaps, clickmaps, A/B testing and other advanced customizable options.",
+              "Link": "https://apps.shopify.com/sumome",
+              "Tag": "shop",
+              "FirstDetected": 1527980400000,
+              "LastDetected": 1541286000000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "IPhone / Mobile Compatible",
+              "Description": "The website contains code that allows the page to support IPhone / Mobile Content.",
+              "Link": "https://apple.com",
+              "Tag": "mobile",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Fonts"],
+              "Name": "Font Awesome",
+              "Description": "Iconic font and CSS toolkit.",
+              "Link": "https://fontawesome.io",
+              "Tag": "widgets",
+              "FirstDetected": 1531436400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Content Delivery Network",
+              "Description": "This page contains links that give the impression that some of the site contents are stored on a content delivery network.",
+              "Link": "https://en.wikipedia.org/wiki/Content_Delivery_Network",
+              "Tag": "CDN",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Feedback Forms and Surveys"],
+              "Name": "Avis Verifies",
+              "Description": "French based reputation and review system also known as Verified Reviews by Net Reviews in the UK.",
+              "Link": "https://avis-verifies.com",
+              "Tag": "widgets",
+              "FirstDetected": 1531436400000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "jQuery",
+              "Name": "jQuery 1.8.2",
+              "Description": "jQuery version 1.8.2",
+              "Link": "https://blog.jquery.com/2012/09/20/jquery-1-8-2-released/",
+              "Tag": "javascript",
+              "FirstDetected": 1531436400000,
+              "LastDetected": 1705392000000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "jQuery CDN",
+              "Description": "The jQuery Amazon S3 Content Delivery Network",
+              "Link": "https://blog.jquery.com/2008/11/19/cloudfront-cdn-for-jquery/",
+              "Tag": "cdn",
+              "FirstDetected": 1531436400000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "SSL by Default",
+              "Description": "The website redirects traffic to an HTTPS/SSL version by default.",
+              "Link": "https://trends.builtwith.com/ssl",
+              "Tag": "ssl",
+              "FirstDetected": 1531436400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Tynt Tracer",
+              "Description": "Tynt Tracer, monitors and watches what is being copied from your website, such as your copyrighted content.",
+              "Link": "https://tynt.com",
+              "Tag": "analytics",
+              "FirstDetected": 1532127600000,
+              "LastDetected": 1532127600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Twitter Platform",
+              "Description": "The page embeds the Twitter platform in one method or another.",
+              "Link": "http://twitter.com/about/resources",
+              "Tag": "javascript",
+              "FirstDetected": 1531436400000,
+              "LastDetected": 1614672000000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Fancybox",
+              "Description": "FancyBox is a tool for displaying images, html content and multi-media in a Mac-style \"lightbox\" that floats overtop of web page. ",
+              "Link": "https://fancybox.net/",
+              "Tag": "javascript",
+              "FirstDetected": 1531436400000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Bookmarking", "Social Sharing"],
+              "Name": "ShareThis",
+              "Description": "One button sharing - quick sharing to MySpace, Email and more!",
+              "Link": "https://sharethis.com",
+              "Tag": "widgets",
+              "FirstDetected": 1532127600000,
+              "LastDetected": 1608105600000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "GDPR Consent Management Platform",
+              "Categories": ["Privacy Compliance"],
+              "Name": "ShareThis CMP System",
+              "Description": "IAB digital advertising consent integration by ShareThis CMP System.",
+              "Link": "https://sharethis.com",
+              "Tag": "widgets",
+              "FirstDetected": 1532127600000,
+              "LastDetected": 1602572400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Privacy Compliance"],
+              "Name": "GDPR Consent Management Platform",
+              "Description": "Consumer-facing consent management solution for GDPR compliance based on the IAB Europe's Transparency & Consent framework.",
+              "Link": "https://iabeurope.eu/tcf-for-cmps/",
+              "Tag": "widgets",
+              "FirstDetected": 1532127600000,
+              "LastDetected": 1602572400000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Skrollr",
+              "Description": "Parallax scrolling library with no dependencies.",
+              "Link": "https://prinzhorn.github.io/skrollr/",
+              "Tag": "javascript",
+              "FirstDetected": 1531436400000,
+              "LastDetected": 1649660400000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "lazySizes",
+              "Description": "Lazy loader for images (responsive and normal), iframes and scripts, that detects any visibility changes triggered through user interaction, CSS or JavaScript without configuration.",
+              "Link": "http://github.com/aFarkas/lazysizes",
+              "Tag": "javascript",
+              "FirstDetected": 1531436400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Payment Acceptance"],
+              "Name": "Visa",
+              "Description": "The website accepts payments with Visa.",
+              "Link": "https://visa.com",
+              "Tag": "payment",
+              "FirstDetected": 1531436400000,
+              "LastDetected": 1682924400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Conversion Tracking", "Conversion Optimization"],
+              "Name": "Facebook Conversion Tracking",
+              "Description": "Conversion tracking functionality from Facebook, allows a user to track advertisement clicks.",
+              "Link": "https://developers.facebook.com/docs/meta-pixel/implementation/conversion-tracking/",
+              "Tag": "analytics",
+              "FirstDetected": 1515538800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Currency"],
+              "Name": "Pound Sterling",
+              "Description": "The website uses the £ symbol on its website - meaning it may accept payment in this British currency.",
+              "Link": "https://en.wikipedia.org/wiki/Pound_sign",
+              "Tag": "payment",
+              "FirstDetected": 1538607600000,
+              "LastDetected": 1602630000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Last Second Coupon by Hextom",
+              "Description": "Tries to increase revenue by turning more window shoppers into paying customers.",
+              "Link": "https://apps.shopify.com/last-second-coupon",
+              "Tag": "shop",
+              "FirstDetected": 1540767600000,
+              "LastDetected": 1601535600000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Plugin / Module", "Shopify App"],
+              "Name": "Hextom",
+              "Description": "Shopify plugin experts.",
+              "Link": "https://hextom.com",
+              "Tag": "shop",
+              "FirstDetected": 1540767600000,
+              "LastDetected": 1639468800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Avis Verifies",
+              "Categories": ["Feedback Forms and Surveys"],
+              "Name": "Verified Reviews",
+              "Description": "Improve visibility to review systems.",
+              "Link": "https://verified-reviews.com",
+              "Tag": "widgets",
+              "FirstDetected": 1538690400000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Currency"],
+              "Name": "Japanese Yen",
+              "Description": "The website uses the ¥ symbol on its website - meaning it may accept payment in this Japanese currency.",
+              "Link": "https://en.wikipedia.org/wiki/Japanese_yen",
+              "Tag": "payment",
+              "FirstDetected": 1548630000000,
+              "LastDetected": 1602630000000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Global Site Tag",
+              "Description": "Google's primary tag for Google Measurement/Conversion Tracking, Adwords and DoubleClick.",
+              "Link": "https://support.google.com/adwords/answer/7548399",
+              "Tag": "analytics",
+              "FirstDetected": 1549321200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Retargeting / Remarketing"],
+              "Name": "Google Remarketing",
+              "Description": "Google code specifically for remarketing/retargeting based advertising.",
+              "Link": "https://www.google.com.au/ads/innovations/remarketing.html",
+              "Tag": "ads",
+              "FirstDetected": 1549321200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Tag Management"],
+              "Name": "Google Tag Manager",
+              "Description": "Tag management that lets you add and update website tags without changes to underlying website code.",
+              "Link": "https://google.com/tagmanager",
+              "Tag": "widgets",
+              "FirstDetected": 1549321200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Conversion Optimization", "Conversion Tracking"],
+              "Name": "Google Conversion Tracking",
+              "Description": "This free tool in AdWords can show you what happens after customers click your ad (for example, whether they purchased your product, called from a mobile phone or downloaded your app).",
+              "Link": "https://support.google.com/adwords/answer/1722054",
+              "Tag": "analytics",
+              "FirstDetected": 1549321200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify Theme"],
+              "Name": "Shopify Custom Theme",
+              "Description": "This site is using a custom Shopify Theme and not one from the Shopify Theme template library.",
+              "Link": "https://themes.shopify.com/",
+              "Tag": "shop",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "ID Discount",
+              "Description": "Exclusive offer system for students, teachers and other uniforms.",
+              "Link": "https://id.discount",
+              "Tag": "widgets",
+              "FirstDetected": 1538690400000,
+              "LastDetected": 1558566000000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Bizzy Social Proof",
+              "Description": "Urgency with recent sales notifications by Pixel Union.",
+              "Link": "https://bsp.pixelunionapps.com/",
+              "Tag": "shop",
+              "FirstDetected": 1553986800000,
+              "LastDetected": 1669190400000,
+              "IsPremium": "yes"
+            },
+            {
+              "Categories": [
+                "Audience Measurement",
+                "Conversion Optimization",
+                "Marketing Automation"
+              ],
+              "Name": "Klaviyo",
+              "Description": "Customer Lifecycle Management platform for Web Apps and eCommerce.",
+              "Link": "https://www.klaviyo.com/",
+              "Tag": "analytics",
+              "FirstDetected": 1555542000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Categories": ["Error Tracking"],
+              "Name": "Rollbar",
+              "Description": "Rollbar collects and analyzes errors on web and mobile apps.",
+              "Link": "https://rollbar.com",
+              "Tag": "widgets",
+              "FirstDetected": 1555542000000,
+              "LastDetected": 1605081600000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "HTML5 History API",
+              "Description": "A standardized way to manipulate the browser history via script.",
+              "Link": "https://www.whatwg.org/specs/web-apps/current-work/multipage/history.html",
+              "Tag": "javascript",
+              "FirstDetected": 1555542000000,
+              "LastDetected": 1625468400000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "HotJar for Shopify",
+              "Description": "Install Hotjar on your Shopify store.",
+              "Link": "https://apps.shopify.com/hotjar",
+              "Tag": "shop",
+              "FirstDetected": 1558566000000,
+              "LastDetected": 1577401200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Parent": "Facebook Pixel",
+              "Name": "Facebook Pixel for Shopify",
+              "Description": "Facebook Pixel specifically for Shopify.",
+              "Link": "https://help.shopify.com/en/manual/promoting-marketing/analyze-marketing/facebook-pixel",
+              "Tag": "analytics",
+              "FirstDetected": 1507845600000,
+              "LastDetected": 1573686000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": [
+                "Audience Measurement",
+                "Conversion Optimization",
+                "Feedback Forms and Surveys"
+              ],
+              "Name": "Hotjar",
+              "Description": "A heatmap, survey, feedback and funnel application.",
+              "Link": "https://hotjar.com",
+              "Tag": "analytics",
+              "FirstDetected": 1558566000000,
+              "LastDetected": 1696057200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "Pinterest",
+              "Description": "Content from the social image sharing website Pinterest.",
+              "Link": "http://pinterest.com",
+              "Tag": "widgets",
+              "FirstDetected": 1558566000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Ticketing System"],
+              "Name": "Gorgias",
+              "Description": "Customer support helpdesk system for eCommerce.",
+              "Link": "https://gorgias.io",
+              "Tag": "cms",
+              "FirstDetected": 1558566000000,
+              "LastDetected": 1608105600000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "Cloudflare",
+              "Description": "Automatically optimizes the delivery of your web pages so your visitors get the fastest page load times and best performance.",
+              "Link": "https://www.cloudflare.com/",
+              "Tag": "cdn",
+              "FirstDetected": 1558566000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "CloudFront",
+              "Description": "Amazon CloudFront is a web service for content delivery. It integrates with other Amazon Web Services to give developers and businesses an easy way to distribute content to end users with low latency, high data transfer speeds, and no commitments.",
+              "Link": "https://aws.amazon.com/cloudfront/",
+              "Tag": "cdn",
+              "FirstDetected": 1558566000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Mobile Non Scaleable Content",
+              "Description": "This content is formatted for mobile devices, it does not allow the content to be scaled.",
+              "Link": "http://developer.apple.com/library/safari/#documentation/appleapplications/reference/SafariHTMLRef/Articles/MetaTags.html",
+              "Tag": "mobile",
+              "FirstDetected": 1558566000000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "BootstrapCDN",
+              "Description": "Bootstrap CDN system - encompasses MaxCDN, NetDNA and Stackpath - donated to jsDelivr.",
+              "Link": "https://www.bootstrapcdn.com/",
+              "Tag": "cdn",
+              "FirstDetected": 1558566000000,
+              "LastDetected": 1608105600000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Conversion Optimization"],
+              "Name": "Sumo",
+              "Description": "Sales and marketing strategies to reduce cart abandonment and increase average order value for eCommerce.",
+              "Link": "https://sumo.com",
+              "Tag": "analytics",
+              "FirstDetected": 1538690400000,
+              "LastDetected": 1606118400000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "Shopify Pay",
+              "Description": "Shop Pay PCI compliant end to end payment solution from Shopify.",
+              "Link": "https://shop.app",
+              "Tag": "payment",
+              "FirstDetected": 1538690400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Live Chat"],
+              "Name": "Smooch",
+              "Description": "Visitor messaging via various platforms. Now known as Zendesk Sunshine Conversations.",
+              "Link": "https://smooch.io",
+              "Tag": "widgets",
+              "FirstDetected": 1560380400000,
+              "LastDetected": 1608105600000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "Cloudflare SSL",
+              "Description": "SSL solutions from Cloudflare",
+              "Link": "https://cloudflare.com",
+              "Tag": "ssl",
+              "FirstDetected": 1560380400000,
+              "LastDetected": 1570230000000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "route",
+              "Description": "Shipping protection for merchants.",
+              "Link": "https://route.com",
+              "Tag": "shipping",
+              "FirstDetected": 1561935600000,
+              "LastDetected": 1562281200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "VerifyPass",
+              "Description": "Provides exclusive discounts and verification for uniform.",
+              "Link": "https://verifypass.com",
+              "Tag": "widgets",
+              "FirstDetected": 1566774000000,
+              "LastDetected": 1612944000000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Schema"],
+              "Name": "Product Schema",
+              "Description": "Any offered product or service.",
+              "Link": "https://schema.org/Product",
+              "Tag": "framework",
+              "FirstDetected": 1515538800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Schema"],
+              "Name": "Offer Schema",
+              "Description": "Offer to transfer an item or service like tickets, renting or bookings.",
+              "Link": "https://schema.org/Offer",
+              "Tag": "framework",
+              "FirstDetected": 1515538800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Boomerang",
+              "Description": "boomerang is a piece of javascript that you add to your web pages, where it measures the performance of your website from your end user's point of view.",
+              "Link": "http://yahoo.github.io/boomerang/doc/",
+              "Tag": "javascript",
+              "FirstDetected": 1570230000000,
+              "LastDetected": 1648018800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Attentive",
+              "Description": "Personalized mobile messaging platform.",
+              "Link": "https://attentivemobile.com/",
+              "Tag": "analytics",
+              "FirstDetected": 1576710000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Categories": ["US hosting", "Cloud Hosting", "Cloud PaaS"],
+              "Name": "Cloudflare Hosting",
+              "Description": "Supercharged web hosting service.",
+              "Link": "https://cloudflare.com",
+              "Tag": "hosting",
+              "FirstDetected": 1581548400000,
+              "LastDetected": 1709107200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Payment Acceptance"],
+              "Name": "PayPal",
+              "Description": "The website accepts payments with PayPal.",
+              "Link": "https://paypal.com",
+              "Tag": "payment",
+              "FirstDetected": 1584572400000,
+              "LastDetected": 1704873600000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Payment Acceptance"],
+              "Name": "Venmo",
+              "Description": "Digital wallet that lets you make payments with merchants and friends.",
+              "Link": "https://venmo.com",
+              "Tag": "payment",
+              "FirstDetected": 1584572400000,
+              "LastDetected": 1691910000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Product Upsell",
+              "Description": "Upsell & Cross-sell app for Shopify from Bold Commerce.",
+              "Link": "https://apps.shopify.com/product-upsell",
+              "Tag": "shop",
+              "FirstDetected": 1588978800000,
+              "LastDetected": 1588978800000,
+              "IsPremium": "yes"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Bold Subscriptions",
+              "Description": "Subscription box system for Shopify.",
+              "Link": "https://boldcommerce.com/subscriptions",
+              "Tag": "shop",
+              "FirstDetected": 1515538800000,
+              "LastDetected": 1625468400000,
+              "IsPremium": "yes"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Bold Brain",
+              "Description": "Product recommendations and data analysis from Bold Commerce.",
+              "Link": "https://boldcommerce.com/bold-brain",
+              "Tag": "shop",
+              "FirstDetected": 1579042800000,
+              "LastDetected": 1588978800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Non Platform"],
+              "Name": "Bold UpSell",
+              "Description": "Product Upsell, Cross-sell & Smart Funnels from Bold Commerce.",
+              "Link": "https://apps.shopify.com/product-upsell",
+              "Tag": "shop",
+              "FirstDetected": 1588978800000,
+              "LastDetected": 1589410800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Plans and Pricing",
+              "Description": "The website contains a link to a \"Plans\" or \"Pricing\" page - useful for finding SaaS tools.",
+              "Link": "https://kb.builtwith.com/special-reports/link-tracking/",
+              "Tag": "link",
+              "FirstDetected": 1588978800000,
+              "LastDetected": 1605081600000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "jQuery",
+              "Name": "jQuery Waypoints",
+              "Description": "Waypoints is a small jQuery plugin that makes it easy to execute a function whenever you scroll to an element.",
+              "Link": "http://imakewebthings.github.com/jquery-waypoints/",
+              "Tag": "javascript",
+              "FirstDetected": 1588978800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["JavaScript Library"],
+              "Name": "lodash",
+              "Description": "Lo-dash is an alternative and a drop-in replacement for Underscore.js.",
+              "Link": "https://lodash.com/",
+              "Tag": "javascript",
+              "FirstDetected": 1588978800000,
+              "LastDetected": 1635836400000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "es6 promise",
+              "Description": "A polyfill for ES6-style Promises.",
+              "Link": "https://github.com/stefanpenner/es6-promise",
+              "Tag": "javascript",
+              "FirstDetected": 1588978800000,
+              "LastDetected": 1620543600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Underscore.js",
+              "Description": "Underscore is a utility-belt library for JavaScript that provides functional programming support.",
+              "Link": "http://documentcloud.github.com/underscore/",
+              "Tag": "javascript",
+              "FirstDetected": 1591225200000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Google AdsBot Disallow",
+              "Description": "The website has disallow rules for Google AdsBot.",
+              "Link": "https://ads.google.com",
+              "Tag": "robots",
+              "FirstDetected": 1593644400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Ahrefs Bot Disallow",
+              "Description": "The website has disallow rules for Ahrefs Bot.",
+              "Link": "https://ahrefs.com",
+              "Tag": "robots",
+              "FirstDetected": 1593644400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "reCAPTCHA",
+              "Categories": ["CAPTCHA"],
+              "Name": "reCAPTCHA v3",
+              "Description": "eCAPTCHA v3 returns a score for each request without user friction.",
+              "Link": "https://developers.google.com/recaptcha/docs/v3",
+              "Tag": "widgets",
+              "FirstDetected": 1595026800000,
+              "LastDetected": 1599634800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["CAPTCHA"],
+              "Name": "reCAPTCHA",
+              "Description": "Anti-bot CAPTCHA widget from Google.",
+              "Link": "https://www.google.com/recaptcha/intro/index.html",
+              "Tag": "widgets",
+              "FirstDetected": 1595026800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Flickity",
+              "Description": "Touch responsive flickable carousels.",
+              "Link": "https://flickity.metafizzy.co/",
+              "Tag": "javascript",
+              "FirstDetected": 1593673200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["JavaScript Library"],
+              "Name": "Vue",
+              "Description": "vue.js a JavaScript MVVM framework.",
+              "Link": "https://vuejs.org",
+              "Tag": "javascript",
+              "FirstDetected": 1593673200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Pixel Union",
+              "Description": "Premium themes, apps, and custom eCommerce solutions for Shopify.",
+              "Link": "https://pixelunionapps.com",
+              "Tag": "shop",
+              "FirstDetected": 1579042800000,
+              "LastDetected": 1669190400000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Payment Acceptance"],
+              "Name": "MasterCard",
+              "Description": "The website accepts payments with MasterCard.",
+              "Link": "https://mastercard.com",
+              "Tag": "payment",
+              "FirstDetected": 1597705200000,
+              "LastDetected": 1682924400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Payment Acceptance"],
+              "Name": "American Express",
+              "Description": "The website accepts payments with American Express.",
+              "Link": "https://amex.com",
+              "Tag": "payment",
+              "FirstDetected": 1597705200000,
+              "LastDetected": 1682924400000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Typekit",
+              "Description": "Typekit is the easiest way to use real fonts on the web. It's a subscription-based service for linking to high-quality Open Type fonts from some of the world's best type foundries.",
+              "Link": "https://typekit.com",
+              "Tag": "widgets",
+              "FirstDetected": 1597705200000,
+              "LastDetected": 1650524400000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Free Shipping Bar by Hextom",
+              "Description": "Free shipping bar to boost conversions.",
+              "Link": "https://apps.shopify.com/free-shipping-bar",
+              "Tag": "shop",
+              "FirstDetected": 1579042800000,
+              "LastDetected": 1614067200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Ultimate Sales Boost",
+              "Description": "Urgency, countdown timer app from Hextom.",
+              "Link": "https://apps.shopify.com/ultimate-sales-boost",
+              "Tag": "shop",
+              "FirstDetected": 1579042800000,
+              "LastDetected": 1601535600000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Shopify Gift Cards",
+              "Description": "This Shopify website supports the redemption of Shopify gift cards which may infer they are using Shopify Plus.",
+              "Link": "https://help.shopify.com/en/manual/products/gift-card-products",
+              "Tag": "shop",
+              "FirstDetected": 1599634800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Payments Processor"],
+              "Name": "Google Pay",
+              "Description": "Google Pay API for easy payments.",
+              "Link": "https://payments.google.com/solutions/onboarding/",
+              "Tag": "payment",
+              "FirstDetected": 1599634800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": [
+                "Non Platform",
+                "Shipping Provider",
+                "Shopify App"
+              ],
+              "Name": "Shipping to over 200 Countries",
+              "Description": "Shopify store shipping to over 200 countries (but less than 300).",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1599634800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Shopify Discounts",
+              "Description": "This Shopify website supports and uses discount codes.",
+              "Link": "https://help.shopify.com/en/manual/discounts",
+              "Tag": "shop",
+              "FirstDetected": 1600383600000,
+              "LastDetected": 1691910000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Demand-side Platform"],
+              "Name": "DoubleClick Bid Manager",
+              "Description": "Programmatic buying platform.",
+              "Link": "https://www.doubleclickbygoogle.com/solutions/digital-marketing/bid-manager/",
+              "Tag": "ads",
+              "FirstDetected": 1601190000000,
+              "LastDetected": 1601190000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["JavaScript Library"],
+              "Name": "Backbone.js",
+              "Description": "Backbone supplies structure to JavaScript-heavy applications.",
+              "Link": "https://backbonejs.org/",
+              "Tag": "javascript",
+              "FirstDetected": 1602572400000,
+              "LastDetected": 1641369600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Fingerprint2",
+              "Description": "Fingerprinting is a technique, outlined in the research by Electronic Frontier Foundation, of anonymously identifying a web browser with accuracy of up to 94% - version2.",
+              "Link": "https://github.com/Valve/fingerprintjs2",
+              "Tag": "javascript",
+              "FirstDetected": 1602572400000,
+              "LastDetected": 1703404800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["eCommerce"],
+              "Name": "Yopify",
+              "Description": "eCommerce apps developer.",
+              "Link": "https://yopify.com/",
+              "Tag": "widgets",
+              "FirstDetected": 1602572400000,
+              "LastDetected": 1668326400000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Searchanise for Shopify",
+              "Description": "Smart & Instant Search for Shopify.",
+              "Link": "https://apps.shopify.com/searchanise",
+              "Tag": "shop",
+              "FirstDetected": 1604444400000,
+              "LastDetected": 1611648000000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Site Search"],
+              "Name": "Searchanise",
+              "Description": "eCommerce search system.",
+              "Link": "https://searchanise.com",
+              "Tag": "widgets",
+              "FirstDetected": 1604444400000,
+              "LastDetected": 1611648000000,
+              "IsPremium": "yes"
+            },
+            {
+              "Categories": ["Conversion Optimization"],
+              "Name": "ConvertCart",
+              "Description": "eCommerce Revenue Optimization Company.",
+              "Link": "https://www.convertcart.com/",
+              "Tag": "analytics",
+              "FirstDetected": 1606118400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "TikTok Embed",
+              "Description": "Short form video embed.",
+              "Link": "https://tiktok.com",
+              "Tag": "media",
+              "FirstDetected": 1608105600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Conversion Optimization", "Conversion Tracking"],
+              "Name": "TikTok Conversion Tracking Pixel",
+              "Description": "TikTok advertising conversion tracking pixel.",
+              "Link": "https://ads.tiktok.com/",
+              "Tag": "analytics",
+              "FirstDetected": 1608105600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Microsoft Ajax Content Delivery Network",
+              "Description": "The Microsoft Ajax Content Delivery Network hosts popular third party JavaScript libraries.",
+              "Link": "https://www.asp.net/ajaxlibrary/CDN.ashx",
+              "Tag": "cdn",
+              "FirstDetected": 1608105600000,
+              "LastDetected": 1608105600000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "jQuery",
+              "Name": "jQuery 2.2.4",
+              "Description": "jQuery version 2.2.4",
+              "Link": "https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released",
+              "Tag": "javascript",
+              "FirstDetected": 1608105600000,
+              "LastDetected": 1608105600000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Smile.io for Shopify",
+              "Description": "Points, VIP reward program plugin for Shopify.",
+              "Link": "https://apps.shopify.com/partners/smile-io",
+              "Tag": "shop",
+              "FirstDetected": 1611043200000,
+              "LastDetected": 1611648000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["eCommerce"],
+              "Name": "Smile IO",
+              "Description": "Customer loyalty rewards incentive program widget for shops previously known as Sweet Tooth.",
+              "Link": "https://www.sweettoothrewards.com/",
+              "Tag": "widgets",
+              "FirstDetected": 1611043200000,
+              "LastDetected": 1611648000000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "Sentry",
+              "Description": "JavaScript bug tracking software through Sentry's javascript client Raven.",
+              "Link": "https://getsentry.com",
+              "Tag": "javascript",
+              "FirstDetected": 1609574400000,
+              "LastDetected": 1709625600000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Live Chat"],
+              "Name": "Reamaze",
+              "Description": "Customer support, live chat, and customer engagement, knowledge base, FAQ.",
+              "Link": "https://www.reamaze.com",
+              "Tag": "widgets",
+              "FirstDetected": 1612684800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "Imgur",
+              "Description": "The page contains content from image sharing website imgur.",
+              "Link": "https://imgur.com",
+              "Tag": "widgets",
+              "FirstDetected": 1612684800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Microsoft Advertising",
+              "Description": "Microsoft Advertising delivers advertising impact through world-class partnership services, including innovative programs, knowledge sharing, and planning and service excellence.",
+              "Link": "https://advertising.microsoft.com/home/home",
+              "Tag": "ads",
+              "FirstDetected": 1612252800000,
+              "LastDetected": 1635836400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["eCommerce"],
+              "Name": "Zipify",
+              "Description": "Apps for eCommerce based websites.",
+              "Link": "https://zipify.com",
+              "Tag": "widgets",
+              "FirstDetected": 1614758400000,
+              "LastDetected": 1625468400000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "Axios",
+              "Description": "Promise based HTTP client for the browser and node.js",
+              "Link": "https://github.com/mzabriskie/axios",
+              "Tag": "javascript",
+              "FirstDetected": 1614758400000,
+              "LastDetected": 1625468400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["JavaScript Library"],
+              "Name": "Polyfill IO",
+              "Description": "Hosted polyfill script.",
+              "Link": "https://polyfill.io",
+              "Tag": "javascript",
+              "FirstDetected": 1614758400000,
+              "LastDetected": 1625468400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Login"],
+              "Name": "Login with Amazon",
+              "Description": "Site login using Amazon accounts.",
+              "Link": "https://developer.amazon.com/apps-and-games/login-with-amazon",
+              "Tag": "widgets",
+              "FirstDetected": 1614758400000,
+              "LastDetected": 1691910000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": [
+                "Checkout Buttons",
+                "Donation",
+                "Payments Processor"
+              ],
+              "Name": "Amazon Payments",
+              "Description": "With Amazon FPS, developers can accept payments on their website for selling goods or services, raise donations, execute recurring payments, and send payments.",
+              "Link": "https://payments.amazon.com/developer",
+              "Tag": "payment",
+              "FirstDetected": 1614758400000,
+              "LastDetected": 1710745200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Bootstrap Heroes",
+              "Description": "Plugins for Shopify for offers and reminders.",
+              "Link": "https://bootstrapheroes.com",
+              "Tag": "shop",
+              "FirstDetected": 1615536000000,
+              "LastDetected": 1669708800000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": [
+                "Non Platform",
+                "Shipping Provider",
+                "Shopify App"
+              ],
+              "Name": "Shipping to over 50 Countries",
+              "Description": "Shopify store shipping to over 50 countries (but less than 100).",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1617606000000,
+              "LastDetected": 1673337600000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "jQuery",
+              "Categories": ["jQuery Plugin", "UI"],
+              "Name": "jQuery UI",
+              "Description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
+              "Link": "https://jqueryui.com/",
+              "Tag": "javascript",
+              "FirstDetected": 1618210800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Animation"],
+              "Name": "Slick JS",
+              "Description": "Fully responsive carousel library.",
+              "Link": "https://kenwheeler.github.io/slick",
+              "Tag": "javascript",
+              "FirstDetected": 1618210800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Slick",
+              "Description": "Standalone CSS Selector Parser and Engine from MooTools.",
+              "Link": "https://github.com/mootools/slick",
+              "Tag": "javascript",
+              "FirstDetected": 1617346800000,
+              "LastDetected": 1635836400000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Ruby on Rails Token",
+              "Description": "Ruby on Rails is an open-source web framework that is optimized for programmer happiness and sustainable productivity. Note that Ruby on Rails has two detection techniques and this is one of them.",
+              "Link": "https://www.rubyonrails.org/",
+              "Tag": "framework",
+              "FirstDetected": 1620543600000,
+              "LastDetected": 1691910000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Google Conversion Tracking",
+              "Categories": ["Advertiser Tracking", "Conversion Tracking"],
+              "Name": "Google AdWords Conversion",
+              "Description": "Adwords conversion tracking code.",
+              "Link": "https://support.google.com/adwords/answer/6095821#get_tag",
+              "Tag": "analytics",
+              "FirstDetected": 1620543600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Error Tracking"],
+              "Name": "Bugsnag",
+              "Description": "Bugsnag captures errors from your web and mobile applications.",
+              "Link": "https://bugsnag.com/",
+              "Tag": "widgets",
+              "FirstDetected": 1620543600000,
+              "LastDetected": 1704614400000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Checkout Buttons"],
+              "Name": "PayPal Button",
+              "Description": "This page contains content from PayPal which includes checkout buttons.",
+              "Link": "https://paypal.com",
+              "Tag": "payment",
+              "FirstDetected": 1620543600000,
+              "LastDetected": 1691910000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Privacy Compliance"],
+              "Name": "Cookiebot",
+              "Description": "Cookie consent widget - now owned by Usercentrics.",
+              "Link": "https://cookiebot.com",
+              "Tag": "widgets",
+              "FirstDetected": 1620543600000,
+              "LastDetected": 1631257200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Recharge Payments",
+              "Description": "Easily sell subscriptions on your Shopify store.",
+              "Link": "https://rechargepayments.com",
+              "Tag": "payment",
+              "FirstDetected": 1620975600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Personalization"],
+              "Name": "Rebuy",
+              "Description": "Data-driven personalization and merchandizing solutions for eCommerce.",
+              "Link": "https://rebuyengine.com",
+              "Tag": "analytics",
+              "FirstDetected": 1601503200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "crypto browserify",
+              "Description": "A port of node's crypto module to the browser.",
+              "Link": "https://github.com/crypto-browserify/crypto-browserify",
+              "Tag": "javascript",
+              "FirstDetected": 1625468400000,
+              "LastDetected": 1628146800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Elliptic",
+              "Description": "Fast Elliptic Curve Cryptography in plain javascript.",
+              "Link": "https://github.com/indutny/elliptic",
+              "Tag": "javascript",
+              "FirstDetected": 1625468400000,
+              "LastDetected": 1628146800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["JavaScript Library"],
+              "Name": "React",
+              "Description": "A JavaScript library for building user interfaces from Facebook.",
+              "Link": "https://reactjs.org/",
+              "Tag": "javascript",
+              "FirstDetected": 1625209200000,
+              "LastDetected": 1709625600000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Zipify",
+              "Name": "Zipify OneClickUpSell",
+              "Description": "Funnel and conversion process for websites.",
+              "Link": "https://zipify.com/category/oneclickupsell/",
+              "Tag": "widgets",
+              "FirstDetected": 1629183600000,
+              "LastDetected": 1637740800000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Lithuanian Agency"],
+              "Name": "SpurIT",
+              "Description": "Website Development Services and eCommerce Solutions provider.",
+              "Link": "https://spur-i-t.com",
+              "Tag": "agency",
+              "FirstDetected": 1633644000000,
+              "LastDetected": 1633935600000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "Google Conversion Linker",
+              "Description": "Detects the ad click information in your conversion page URLs and stores this information to associate an ad click with a conversion.",
+              "Link": "https://support.google.com/tagmanager/answer/7549390?hl=en",
+              "Tag": "analytics",
+              "FirstDetected": 1638691200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Irish English",
+              "Description": "Website content is written in Irish English.",
+              "Link": "https://en.wikipedia.org/wiki/Language",
+              "Tag": "language",
+              "FirstDetected": 1643270400000,
+              "LastDetected": 1643270400000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Australian English",
+              "Description": "Website content is written in Australian English.",
+              "Link": "https://en.wikipedia.org/wiki/Language",
+              "Tag": "language",
+              "FirstDetected": 1643443200000,
+              "LastDetected": 1643443200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Facebook CDN",
+              "Description": "This page has content that links to the Facebook content delivery network.",
+              "Link": "https://www.facebook.com",
+              "Tag": "cdn",
+              "FirstDetected": 1644307200000,
+              "LastDetected": 1691478000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Contextual Advertising"],
+              "Name": "Google Adsense",
+              "Description": "A contextual advertising solution for delivering Google AdWords ads that are relevant to site content pages.",
+              "Link": "https://google.com/adsense",
+              "Tag": "ads",
+              "FirstDetected": 1647327600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Google Adsense",
+              "Name": "Google Adsense Asynchronous",
+              "Description": "Fully asynchronous version of the AdSense ad code.",
+              "Link": "https://support.google.com/adsense/answer/3221666?hl=en",
+              "Tag": "ads",
+              "FirstDetected": 1647327600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "GovX",
+              "Description": "Military & Government exclusive eCommerce discount provider.",
+              "Link": "https://govx.com",
+              "Tag": "widgets",
+              "FirstDetected": 1648018800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Conversion Tracking"],
+              "Name": "Pinterest Conversion Tracking",
+              "Description": "Tag that allows you to track actions people take on your website after viewing your Promoted Pin.",
+              "Link": "https://developers.pinterest.com/docs/ad-tools/conversion-tag/",
+              "Tag": "analytics",
+              "FirstDetected": 1579042800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Schema"],
+              "Name": "Organization Schema",
+              "Description": "Organization i.e. school, NGO, Corporation.",
+              "Link": "https://schema.org/Organization",
+              "Tag": "framework",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Shopify Theme", "Non Platform"],
+              "Name": "Shopify Parallax Theme",
+              "Description": "Parallax theme from Shopify Themes",
+              "Link": "https://themes.shopify.com/themes/parallax/styles/aspen",
+              "Tag": "shop",
+              "FirstDetected": 1651129200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "Apple Mobile Web Clips Icon",
+              "Description": "This page contains an icon for iPhone, iPad and iTouch devices.",
+              "Link": "http://developer.apple.com/library/iOS/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html",
+              "Tag": "mobile",
+              "FirstDetected": 1651129200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "imagesLoaded",
+              "Description": "jQuery plugin for seeing if the images are loaded.",
+              "Link": "https://github.com/desandro/imagesloaded",
+              "Tag": "javascript",
+              "FirstDetected": 1651129200000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "instant.page",
+              "Description": "Make your site website pages load very quickly.",
+              "Link": "https://instant.page/",
+              "Tag": "javascript",
+              "FirstDetected": 1651129200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Ahrefs Site Verification",
+              "Description": "Verifying ownership of your project or website on AHREFs.",
+              "Link": "https://ahrefs.com",
+              "Tag": "widgets",
+              "FirstDetected": 1633644000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Yahoo Dot",
+              "Description": "Fives advertisers a simple way to measure and improve customer engagement across campaigns.",
+              "Link": "https://advertising.yahoo.com/Blog/DOT-RELEASE.html",
+              "Tag": "analytics",
+              "FirstDetected": 1515538800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["DMARC"],
+              "Name": "DMARC",
+              "Description": "A technical specification created by a group of organizations that want to help reduce the potential for email-based abuse",
+              "Link": "https://www.dmarc.org",
+              "Tag": "mx",
+              "FirstDetected": 1655190000000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Audience Measurement"],
+              "Name": "Microsoft Clarity",
+              "Description": "Free-to-use analytics product for webmasters that shows how people are using your website.",
+              "Link": "https://clarity.microsoft.com",
+              "Tag": "analytics",
+              "FirstDetected": 1656226800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Google Adsense",
+              "Name": "Google AdSense Integrator",
+              "Description": "Google Adsense account is linked with Google Analytics account.",
+              "Link": "https://google.com/adsense",
+              "Tag": "ads",
+              "FirstDetected": 1656226800000,
+              "LastDetected": 1688713200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Google Analytics",
+              "Name": "Google Analytics 4",
+              "Description": "Google Analytics 4 formerly known as App + Web is a new version of Google Analytics that was released in October 2020.",
+              "Link": "https://support.google.com/analytics/answer/10089681?hl=en",
+              "Tag": "analytics",
+              "FirstDetected": 1656226800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Choozle",
+              "Description": "Choozle is a self-service digital advertising software platform",
+              "Link": "https://choozle.com",
+              "Tag": "ads",
+              "FirstDetected": 1656226800000,
+              "LastDetected": 1698303600000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Demand-side Platform"],
+              "Name": "The Trade Desk",
+              "Description": "Data-driven marketing suite that offers marketers a single place to buy all forms of online media.",
+              "Link": "https://www.thetradedesk.com",
+              "Tag": "ads",
+              "FirstDetected": 1656226800000,
+              "LastDetected": 1698303600000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Tag Management"],
+              "Name": "Ensighten",
+              "Description": "Tag management system that helps with deployment, changes, removal and reporting of vendor tags and analytics tracking tools.",
+              "Link": "https://www.ensighten.com/",
+              "Tag": "widgets",
+              "FirstDetected": 1656226800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "Cloudflare JS",
+              "Description": "Loads content from Cloudflare CDN.",
+              "Link": "https://cloudflare.com",
+              "Tag": "cdn",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Pusher",
+              "Description": "Pusher is a realtime service that complements your existing server architecture.",
+              "Link": "https://pusher.com",
+              "Tag": "framework",
+              "FirstDetected": 1656226800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Categories": ["Conversion Optimization"],
+              "Name": "Loyalty Lion",
+              "Description": "Reward custom activity and gain customer insight.",
+              "Link": "https://loyaltylion.com",
+              "Tag": "analytics",
+              "FirstDetected": 1656658800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "100 Shopify Products",
+              "Description": "More than 100 products listed.",
+              "Link": "https://kb.builtwith.com/special-reports/store-product-count/",
+              "Tag": "shop",
+              "FirstDetected": 1657868400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Boost Product Filter and Search",
+              "Description": "Advanced Product filter and smart search.",
+              "Link": "https://apps.shopify.com/product-filter-search",
+              "Tag": "shop",
+              "FirstDetected": 1657868400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Categories": ["Site Search"],
+              "Name": "Boost Commerce",
+              "Description": "Provides product filter and smart site search for online stores.",
+              "Link": "https://boostcommerce.net",
+              "Tag": "widgets",
+              "FirstDetected": 1657868400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Parent": "Cloudflare CDN",
+              "Categories": ["US hosting"],
+              "Name": "Cloudflare Network Error Logging",
+              "Description": "Identify problems with site visitors connecting to Cloudflare.",
+              "Link": "https://developers.cloudflare.com/logs/reference/log-fields/zone/nel_reports",
+              "Tag": "hosting",
+              "FirstDetected": 1659510000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "English HREF LANG",
+              "Description": "This webpage has alternate versions available in English via the use of the hreflang tag.",
+              "Link": "https://support.google.com/webmasters/answer/189077?hl=en",
+              "Tag": "language",
+              "FirstDetected": 1660460400000,
+              "LastDetected": 1668326400000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Australian English HREF LANG",
+              "Description": "This webpage has alternate versions available in Australian English via the use of the hreflang tag.",
+              "Link": "https://support.google.com/webmasters/answer/189077?hl=en",
+              "Tag": "language",
+              "FirstDetected": 1660460400000,
+              "LastDetected": 1668326400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Privacy Compliance"],
+              "Name": "US Privacy User Signal Mechanism",
+              "Description": "The US Privacy API (USP API) is a lightweight API used to communicate signals represented in the US Privacy String.",
+              "Link": "https://github.com/InteractiveAdvertisingBureau/USPrivacy",
+              "Tag": "widgets",
+              "FirstDetected": 1660460400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Amazon S3",
+              "Description": "Amazon Simple Storage provides unlimited storage to developers and online businesses - saving costs and increase storage reliability.",
+              "Link": "https://aws.amazon.com/s3",
+              "Tag": "cdn",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1710831600000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["eCommerce", "Feedback Forms and Surveys"],
+              "Name": "Pixelpop",
+              "Description": "Collect email signups for eCommerce sites from Pixel Union.",
+              "Link": "https://www.pixelunion.net/apps/pixelpop/",
+              "Tag": "widgets",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1515571200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Locksmith",
+              "Description": "Access control for anything in Shopify store.",
+              "Link": "https://apps.shopify.com/locksmith",
+              "Tag": "shop",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1601535600000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "Facebook",
+              "Description": "The website mentions facebook.com in some form.",
+              "Link": "https://facebook.com",
+              "Tag": "link",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Twitter",
+              "Description": "The website mentions twitter.com in some form.",
+              "Link": "https://twitter.com",
+              "Tag": "link",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Elfsight",
+              "Description": "Social website widget provider.",
+              "Link": "https://elfsight.com/",
+              "Tag": "widgets",
+              "FirstDetected": 1507845600000,
+              "LastDetected": 1515571200000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Currency"],
+              "Name": "Euro",
+              "Description": "The website uses the € symbol on its website - meaning it may accept payment in Euros.",
+              "Link": "https://en.wikipedia.org/wiki/Euro",
+              "Tag": "payment",
+              "FirstDetected": 1515538800000,
+              "LastDetected": 1710831600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "TikTok",
+              "Description": "The website mentions tiktok.com (but not Douyin) in some form.",
+              "Link": "https://tiktok.com",
+              "Tag": "link",
+              "FirstDetected": 1633644000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Cloudflare CDN",
+              "Description": "Content owned by this site hosted on the Cloudflare CDN.",
+              "Link": "https://cloudflare.net",
+              "Tag": "cdns",
+              "FirstDetected": 1662015600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Shopify App", "Non Platform"],
+              "Name": "Bing Shopping",
+              "Description": "Sell products on Bing Ads network via Shopify.",
+              "Link": "https://apps.shopify.com/bing-shopping",
+              "Tag": "shop",
+              "FirstDetected": 1662793200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Conversion Optimization"],
+              "Name": "LinkedIn Insights",
+              "Description": "The LinkedIn Insight Tag is a piece of lightweight JavaScript code that you can add to your website to enable in-depth campaign reporting and unlock valuable insights about your website visitors and for conversion optimization of ads.",
+              "Link": "https://business.linkedin.com/marketing-solutions",
+              "Tag": "analytics",
+              "FirstDetected": 1663570800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Instagram",
+              "Description": "The website mentions Instagram in some form.",
+              "Link": "https://instagram.com",
+              "Tag": "link",
+              "FirstDetected": 1486681200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Twitter Website Universal Tag",
+              "Description": "A tool from Twitter that makes it possible for advertisers to track website conversions and manage tailored audience campaigns.",
+              "Link": "https://blog.twitter.com/2016/website-conversion-tracking-and-remarketing-made-easier-and-more-flexible",
+              "Tag": "analytics",
+              "FirstDetected": 1664434800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Contextual Advertising"],
+              "Name": "AvantLink",
+              "Description": "Advertiser links to affiliate links automatically for easy website integration from Avantlink affiliate network.",
+              "Link": "https://www.avantlink.com/",
+              "Tag": "ads",
+              "FirstDetected": 1664866800000,
+              "LastDetected": 1703404800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "LiveIntent",
+              "Description": "Email based ad system.",
+              "Link": "https://liveintent.com",
+              "Tag": "ads",
+              "FirstDetected": 1664866800000,
+              "LastDetected": 1677744000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Conversion Optimization", "Conversion Tracking"],
+              "Name": "Twitter Conversion Tracking",
+              "Description": "Twitter ads conversion tracking code.",
+              "Link": "https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html",
+              "Tag": "analytics",
+              "FirstDetected": 1664866800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Ad Network", "Retargeting / Remarketing"],
+              "Name": "Twitter Ads",
+              "Description": "Twitter advertising includes conversion tracking and re-marketing tools.",
+              "Link": "https://ads.twitter.com",
+              "Tag": "ads",
+              "FirstDetected": 1664866800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Consent Management Platform API v 2.0",
+              "Description": "IAB Europe Transparency and Consent Framework (TCF) v2 implementation.",
+              "Link": "https://iabeurope.eu/tcf-2-0/",
+              "Tag": "ads",
+              "FirstDetected": 1664866800000,
+              "LastDetected": 1664866800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Advertiser Tracking"],
+              "Name": "AvantMetrics",
+              "Description": "AvantMetrics is a proprietary container pixel and analytics platform that allows for more intelligent Affiliate sale referral tracking rules.",
+              "Link": "https://www.avantmetrics.com/",
+              "Tag": "analytics",
+              "FirstDetected": 1664866800000,
+              "LastDetected": 1703404800000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "Fizzy UI Utils",
+              "Description": "UI utilities & helpers",
+              "Link": "https://github.com/metafizzy/fizzy-ui-utils",
+              "Tag": "javascript",
+              "FirstDetected": 1664866800000,
+              "LastDetected": 1703404800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Yahoo Image CDN",
+              "Description": "The website contains links to Yahoo image CDN.",
+              "Link": "https://yahoo.com",
+              "Tag": "cdn",
+              "FirstDetected": 1665558000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "HSTS",
+              "Description": "Forces browsers to only communicate with the site using HTTPS.",
+              "Link": "https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security",
+              "Tag": "ssl",
+              "FirstDetected": 1665558000000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Triple Whale",
+              "Description": "Sales and Ad management system.",
+              "Link": "https://triplewhale.com",
+              "Tag": "ads",
+              "FirstDetected": 1666162800000,
+              "LastDetected": 1684911600000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Conversion Optimization"],
+              "Name": "Reddit Conversion Tracking",
+              "Description": "Conversion tracking system from Reddit.",
+              "Link": "https://advertising.reddithelp.com",
+              "Tag": "analytics",
+              "FirstDetected": 1666162800000,
+              "LastDetected": 1705478400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Social Management"],
+              "Name": "Flockler",
+              "Description": "Social hub content integration system.",
+              "Link": "https://flockler.com",
+              "Tag": "cms",
+              "FirstDetected": 1667372400000,
+              "LastDetected": 1669190400000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "Reddit Ads",
+              "Description": "Ads from social network Reddit.",
+              "Link": "https://reddit.com",
+              "Tag": "ads",
+              "FirstDetected": 1668326400000,
+              "LastDetected": 1705478400000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Conversion Optimization"],
+              "Name": "Twitter Analytics",
+              "Description": "A tool that helps website owners understand how much traffic they receive from Twitter and the effectiveness of Twitter integrations on their sites. Includes Twitter Conversion Tracking.",
+              "Link": "https://dev.twitter.com/blog/introducing-twitter-web-analytics",
+              "Tag": "analytics",
+              "FirstDetected": 1668326400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Audience Measurement"],
+              "Name": "Yahoo Web Analytics",
+              "Description": "Yahoo! Web Analytics is an enterprise site analytics tool that provides real-time insight into visitor behavior on your website.",
+              "Link": "http://web.analytics.yahoo.com",
+              "Tag": "analytics",
+              "FirstDetected": 1668326400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "LinkedIn",
+              "Description": "The website mentions linkedin.com in some form.",
+              "Link": "https://linkedin.com",
+              "Tag": "link",
+              "FirstDetected": 1668326400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "LinkedIn Ads",
+              "Description": "LinkedIn advertising solutions.",
+              "Link": "https://linkedin.com/ads",
+              "Tag": "ads",
+              "FirstDetected": 1668326400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform"],
+              "Name": "Shopify Account",
+              "Description": "This Shopify site allows you to login to an existing account you may have created to continue shopping.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1671350400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Affiliate Programs"],
+              "Name": "Everflow",
+              "Description": "Affiliate tracking platform",
+              "Link": "https://www.everflow.io/",
+              "Tag": "ads",
+              "FirstDetected": 1671350400000,
+              "LastDetected": 1673337600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Slack",
+              "Description": "Messaging app for teams that makes working together simple and efficient.",
+              "Link": "https://slack.com",
+              "Tag": "widgets",
+              "FirstDetected": 1671350400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "CrUX Dataset",
+              "Description": "CrUX is a data collection system that gathers information about how real users interact with websites. This website is included in the user experiences data gathered from Google Chrome and thus considered sufficiently popular on the Internet.",
+              "Link": "https://developer.chrome.com/docs/crux/about/",
+              "Tag": "widgets",
+              "FirstDetected": 1672473600000,
+              "LastDetected": 1710486000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "CrUX Dataset",
+              "Name": "CrUX Top 500k",
+              "Description": "Relative measure of site popularity within the CrUX dataset, measured by the total number of navigations on the origin. This site is in the top 500k.",
+              "Link": "https://developer.chrome.com/docs/crux/about/",
+              "Tag": "widgets",
+              "FirstDetected": 1672473600000,
+              "LastDetected": 1710486000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Snap Pixel for Shopify",
+              "Description": "Snapchat Ads App makes it possible to create ads and set-up campaigns on Snapchat for products.",
+              "Link": "https://businesshelp.snapchat.com/en-US/a/pixel-shopify",
+              "Tag": "shop",
+              "FirstDetected": 1676534400000,
+              "LastDetected": 1693983600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Tapad",
+              "Description": "Allows advertisers to engage the same consumer with consistent ads across multiple platforms.",
+              "Link": "https://www.tapad.com/",
+              "Tag": "ads",
+              "FirstDetected": 1677225600000,
+              "LastDetected": 1709625600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Snap Pixel",
+              "Description": "With the Snap Pixel, advertisers can track their customers journey. Snapchat Ads.",
+              "Link": "https://forbusiness.snapchat.com/measurement/",
+              "Tag": "ads",
+              "FirstDetected": 1677225600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "CrUX Dataset",
+              "Name": "CrUX Top 1m",
+              "Description": "Relative measure of site popularity within the CrUX dataset, measured by the total number of navigations on the origin. This site is in the top 1 million.",
+              "Link": "https://developer.chrome.com/docs/crux/about/",
+              "Tag": "widgets",
+              "FirstDetected": 1678863600000,
+              "LastDetected": 1702627200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["A/B Testing", "Personalization"],
+              "Name": "Google Optimize 360",
+              "Description": "Test different variations of a website and then tailor it to deliver a personalized experience that works best for each customer and for your business.",
+              "Link": "https://www.google.com/analytics/optimize/",
+              "Tag": "analytics",
+              "FirstDetected": 1680159600000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "Express",
+              "Description": "A web application framework for node node.js - expressjs.",
+              "Link": "https://expressjs.com/",
+              "Tag": "framework",
+              "FirstDetected": 1682406000000,
+              "LastDetected": 1692428400000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Cloudflare Bot Manager",
+              "Description": "Stop bad bots by using threat intelligence.",
+              "Link": "https://www.cloudflare.com/products/bot-management/",
+              "Tag": "widgets",
+              "FirstDetected": 1682406000000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "CartActivity",
+              "Description": "Get a newsfeed of your Shopify stores shopping cart.",
+              "Link": "https://cartactivity.com/",
+              "Tag": "shop",
+              "FirstDetected": 1683961200000,
+              "LastDetected": 1683961200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Fraud Prevention"],
+              "Name": "ClickCease",
+              "Description": "Ad fraud prevention company.",
+              "Link": "https://clickcease.com",
+              "Tag": "ads",
+              "FirstDetected": 1688713200000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": [
+                "Non Platform",
+                "Shipping Provider",
+                "Shopify App"
+              ],
+              "Name": "Ships to China",
+              "Description": "Shopify store shipping to China.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1688713200000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": [
+                "Non Platform",
+                "Shipping Provider",
+                "Shopify App"
+              ],
+              "Name": "Ships to Japan",
+              "Description": "Shopify store shipping to Japan.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1688713200000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": [
+                "Non Platform",
+                "Shipping Provider",
+                "Shopify App"
+              ],
+              "Name": "Scandinavian Shipping",
+              "Description": "Shipping to all of Scandinavia - Denmark, Finland, Iceland, Norway and Sweden.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1688713200000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Affiliate Partner Reseller",
+              "Description": "The homepage mentions \"affiliates\", \"partners\" or \"resellers\" as a link on the homepage. Potentially an affiliate program provider.",
+              "Link": "https://kb.builtwith.com/special-reports/link-tracking/",
+              "Tag": "link",
+              "FirstDetected": 1690354800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["eCommerce", "Feedback Forms and Surveys"],
+              "Name": "Okendo",
+              "Description": "Customer reviews for eCommerce sites.",
+              "Link": "https://www.okendo.io/",
+              "Tag": "widgets",
+              "FirstDetected": 1692255600000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Parent": "jQuery",
+              "Name": "jQuery 3.6.0",
+              "Description": "jQuery version 3.6.0",
+              "Link": "https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/",
+              "Tag": "javascript",
+              "FirstDetected": 1693119600000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": [
+                "Non Platform",
+                "Shipping Provider",
+                "Shopify App"
+              ],
+              "Name": "USA and Canada Shipping",
+              "Description": "Shipping options for USA and Canada only.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1693810800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Enterprise", "Hosted Solution"],
+              "Name": "Shopify Plus",
+              "Description": "Shopify Plus is an ecommerce platform for high-volume and enterprise merchants.",
+              "Link": "https://www.shopify.com/plus",
+              "Tag": "shop",
+              "FirstDetected": 1693810800000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Shopify B2B",
+              "Description": "Shopify's B2B suite of features allows businesses to sell to other businesses online without the need for third-party apps or workarounds. It enables customers to set specific prices, payment terms and currencies, as well as connect multiple buyers and lo",
+              "Link": "https://help.shopify.com/en/manual/b2b",
+              "Tag": "shop",
+              "FirstDetected": 1693810800000,
+              "LastDetected": 1709971200000,
+              "IsPremium": "yes"
+            },
+            {
+              "Parent": "PayPal Button",
+              "Categories": ["Checkout Buttons"],
+              "Name": "PayPal Express Checkout",
+              "Description": "Express Checkout eliminates one of the major causes of checkout abandonment by giving buyers all the transaction details at once, including order details, shipping options, insurance choices, and tax totals.",
+              "Link": "https://developer.paypal.com/docs/classic/express-checkout/integration-guide/ECGettingStarted/",
+              "Tag": "payment",
+              "FirstDetected": 1693810800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify Pay",
+              "Name": "Shop Pay Installments",
+              "Description": "Pay in installments with Shop Pay.",
+              "Link": "https://shop.app",
+              "Tag": "payment",
+              "FirstDetected": 1693810800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Shopify SMS Marketing",
+              "Description": "SMS marketing sends messages to your phone regarding the Shopify store products.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1693922400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Shopify Email Marketing",
+              "Description": "Shopify store has enabled email marketing.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1693922400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Facebook Pay",
+              "Description": "Way to pay on the apps you already use (Facebook, Instragram, Messenger and WhatsApp).",
+              "Link": "https://pay.facebook.com",
+              "Tag": "payment",
+              "FirstDetected": 1693983600000,
+              "LastDetected": 1710745200000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Name": "Shopify Dormant",
+              "Description": "Shopify Dormant version are Shopify sites that have expired or the owner has not enabled them yet.",
+              "Link": "https://shopify.com",
+              "Tag": "shop",
+              "FirstDetected": 1693983600000,
+              "LastDetected": 1695625200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Server Location"],
+              "Name": "Canadian Server Location",
+              "Description": "The web server is located in Canada.",
+              "Link": "https://kb.builtwith.com/special-reports/server-location-tracking/",
+              "Tag": "hosting",
+              "FirstDetected": 1698044400000,
+              "LastDetected": 1709971200000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["DMARC"],
+              "Name": "EasyDMARC",
+              "Description": "Phishing Protection system.",
+              "Link": "https://easydmarc.com",
+              "Tag": "mx",
+              "FirstDetected": 1699776000000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "SMTP TLS Reporting",
+              "Description": "Reporting mechanism for failing emails.",
+              "Link": "https://tools.ietf.org/html/rfc8460",
+              "Tag": "framework",
+              "FirstDetected": 1699776000000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Wholesale",
+              "Description": "The website contains a link to an \"Wholesale\" style page.",
+              "Link": "https://kb.builtwith.com/special-reports/link-tracking/",
+              "Tag": "link",
+              "FirstDetected": 1700726400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Intersection Observer",
+              "Description": "API that can be used to understand the visibility and position of DOM elements relative to a containing element or to the top-level viewport.",
+              "Link": "https://www.w3.org/TR/intersection-observer/",
+              "Tag": "javascript",
+              "FirstDetected": 1702540800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Privacy Compliance"],
+              "Name": "Global Privacy Control",
+              "Description": "This product helps you take control of your privacy by allowing you to globally opt out of data collection and data sharing.",
+              "Link": "https://globalprivacycontrol.org",
+              "Tag": "widgets",
+              "FirstDetected": 1702540800000,
+              "LastDetected": 1709625600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "React Redux",
+              "Description": "Official React bindings for Redux",
+              "Link": "https://react-redux.js.org/",
+              "Tag": "javascript",
+              "FirstDetected": 1702540800000,
+              "LastDetected": 1709625600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Classnames",
+              "Description": "Javascript utility for conditionally joining classNames together.",
+              "Link": "https://jedwatson.github.io/classnames/",
+              "Tag": "javascript",
+              "FirstDetected": 1702540800000,
+              "LastDetected": 1709625600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Toutiao",
+              "Description": "Recommendation system product based on data mining that recommends valuable, personalized information to users in China.",
+              "Link": "https://toutiao.com",
+              "Tag": "ads",
+              "FirstDetected": 1702540800000,
+              "LastDetected": 1709625600000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Vue",
+              "Name": "vuex",
+              "Description": "State management for Vue.js",
+              "Link": "https://vuex.vuejs.org/",
+              "Tag": "javascript",
+              "FirstDetected": 1702540800000,
+              "LastDetected": 1709625600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Periodic",
+              "Description": "Custom scheduling app.",
+              "Link": "https://periodic.is",
+              "Tag": "widgets",
+              "FirstDetected": 1702540800000,
+              "LastDetected": 1709625600000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["JavaScript Library"],
+              "Name": "Socket.IO",
+              "Description": "Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms.",
+              "Link": "http://socket.io",
+              "Tag": "javascript",
+              "FirstDetected": 1702540800000,
+              "LastDetected": 1709625600000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Cloudflare Radar",
+              "Description": "The website appears on the Cloudflare Radar Top 1m sites list",
+              "Link": "https://radar.cloudflare.com",
+              "Tag": "widgets",
+              "FirstDetected": 1702713600000,
+              "LastDetected": 1705392000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Vue",
+              "Name": "Vue Instantiated",
+              "Description": "VueJS instantiated - we found Vue \"loaded\" into memory on this page.",
+              "Link": "https://vuejs.org",
+              "Tag": "javascript",
+              "FirstDetected": 1703404800000,
+              "LastDetected": 1703404800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Audience Measurement"],
+              "Name": "Lucky Orange",
+              "Description": "Lucky Orange lets you see what people are doing on your website, in real time, and interact with them.",
+              "Link": "http://www.luckyorange.com",
+              "Tag": "analytics",
+              "FirstDetected": 1709366400000,
+              "LastDetected": 1711177200000,
+              "IsPremium": "maybe"
+            }
+          ],
+          "FirstIndexed": 1464476400000,
+          "LastIndexed": 1711177200000,
+          "Domain": "firedeptcoffee.com",
+          "Url": "",
+          "SubDomain": ""
+        },
+        {
+          "Technologies": [
+            {
+              "Categories": ["JavaScript Library"],
+              "Name": "Yahoo User Interface",
+              "Description": "The Yahoo! User Interface (YUI) Library is a set of utilities and controls, written in JavaScript, for building richly interactive web applications using techniques such as DOM scripting, DHTML and AJAX.",
+              "Link": "https://developer.yahoo.com/yui/",
+              "Tag": "javascript",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1512169200000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Atom",
+              "Description": "Atom Syndication Format is an XML language used for web feeds very similar to RSS.",
+              "Link": "https://en.wikipedia.org/wiki/Atom_%28standard%29",
+              "Tag": "feeds",
+              "FirstDetected": 1469746800000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["JavaScript Library"],
+              "Name": "Marionette.js",
+              "Description": "Backbone.Marionette is a composite application library for Backbone.js that aims to simplify the construction of large scale JavaScript applications.",
+              "Link": "https://github.com/marionettejs/backbone.marionette",
+              "Tag": "javascript",
+              "FirstDetected": 1473548400000,
+              "LastDetected": 1473548400000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Google Maps API",
+              "Description": "Google Maps has a wide array of APIs that let you embed the functionality of Google Maps.",
+              "Link": "https://developers.google.com/maps/",
+              "Tag": "mapping",
+              "FirstDetected": 1501110000000,
+              "LastDetected": 1504306800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Maps"],
+              "Name": "Google Maps",
+              "Description": "Google maps embedded into the webpage.",
+              "Link": "http://www.google.com/apis/maps/",
+              "Tag": "mapping",
+              "FirstDetected": 1501110000000,
+              "LastDetected": 1504306800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Google Analytics",
+              "Name": "Google Analytics Enhanced Ecommerce",
+              "Description": "Collect enhanced eCommerce data with Google Analytics.",
+              "Link": "https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce",
+              "Tag": "analytics",
+              "FirstDetected": 1533596400000,
+              "LastDetected": 1533596400000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Facebook Sharer",
+              "Description": "Share this page on Facebook using a deprecated sharing syntax.",
+              "Link": "https://www.facebook.com/facebook-widgets/share.php",
+              "Tag": "widgets",
+              "FirstDetected": 1533596400000,
+              "LastDetected": 1614844800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Shopify Blog",
+              "Description": "Page is built using Shopify's built in blogging engine.",
+              "Link": "https://help.shopify.com/en/manual/sell-online/online-store/blogs",
+              "Tag": "shop",
+              "FirstDetected": 1565132400000,
+              "LastDetected": 1614844800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": [
+                "Live Stream / Webcast",
+                "Online Video Platform",
+                "Social Video Platform"
+              ],
+              "Name": "YouTube",
+              "Description": "Embedded videos from YouTube.",
+              "Link": "https://youtube.com",
+              "Tag": "media",
+              "FirstDetected": 1581548400000,
+              "LastDetected": 1691478000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Schema"],
+              "Name": "AggregateRating Schema",
+              "Description": "Average rating of somethings based on aggregate of reviews.",
+              "Link": "https://schema.org/AggregateRating",
+              "Tag": "framework",
+              "FirstDetected": 1588978800000,
+              "LastDetected": 1620975600000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Shopify",
+              "Categories": ["Non Platform", "Shopify App"],
+              "Name": "Shappify",
+              "Description": "Developer of Shopify Apps that help increase your sales. Now BOLD Commerce.",
+              "Link": "https://shappify.com/",
+              "Tag": "shop",
+              "FirstDetected": 1605081600000,
+              "LastDetected": 1605081600000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Schema"],
+              "Name": "Thing Schema",
+              "Description": "Super generic type of item.",
+              "Link": "https://schema.org/Thing",
+              "Tag": "framework",
+              "FirstDetected": 1606118400000,
+              "LastDetected": 1620975600000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Schema"],
+              "Name": "Brand Schema",
+              "Description": "Brand name used by a company.",
+              "Link": "https://schema.org/Brand",
+              "Tag": "framework",
+              "FirstDetected": 1671350400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Model Viewer",
+              "Description": "Display interactive 3D models on the web & in AR. Also used by Shopify.",
+              "Link": "https://modelviewer.dev",
+              "Tag": "widgets",
+              "FirstDetected": 1671350400000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Conversion Optimization"],
+              "Name": "GetEmails",
+              "Description": "GetEmails identifies emails of anonymous traffic and then sends you live email addresses. Now Retention.com.",
+              "Link": "https://getemails.com",
+              "Tag": "analytics",
+              "FirstDetected": 1682924400000,
+              "LastDetected": 1682924400000,
+              "IsPremium": "yes"
+            },
+            {
+              "Name": "UNPKG",
+              "Description": "unpkg is a fast, global content delivery network for everything on npm.",
+              "Link": "https://unpkg.com",
+              "Tag": "cdn",
+              "FirstDetected": 1704960000000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Klaviyo",
+              "Name": "Klaviyo Learnq",
+              "Description": "Legacy JavaScript API from Klaviyo.",
+              "Link": "https://klaviyo.com",
+              "Tag": "analytics",
+              "FirstDetected": 1707984000000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Klaviyo",
+              "Name": "Klaviyo Back in Stock",
+              "Description": "Back in Stock notifications flow by Klaviyo.",
+              "Link": "https://klaviyo.com",
+              "Tag": "analytics",
+              "FirstDetected": 1707984000000,
+              "LastDetected": 1711090800000,
+              "IsPremium": "yes"
+            }
+          ],
+          "FirstIndexed": 1469746800000,
+          "LastIndexed": 1711090800000,
+          "Domain": "firedeptcoffee.com",
+          "Url": "dd",
+          "SubDomain": ""
+        },
+        {
+          "Technologies": [
+            {
+              "Categories": ["Cloud PaaS", "Indian hosting"],
+              "Name": "Google",
+              "Description": "Site hosted on Google infrastructure.",
+              "Link": "https://google.com",
+              "Tag": "hosting",
+              "FirstDetected": 1621321200000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Cloud Hosting", "Indian hosting"],
+              "Name": "Google Cloud",
+              "Description": "Website hosted on Google Cloud Platform - includes Google Compute Engine.",
+              "Link": "https://cloud.google.com",
+              "Tag": "hosting",
+              "FirstDetected": 1621321200000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "Google Cloud",
+              "Categories": ["Indian hosting"],
+              "Name": "Google Cloud North Virginia",
+              "Description": "Google Cloud hosted in North Virginia us-east4 Region.",
+              "Link": "https://cloud.google.com",
+              "Tag": "hosting",
+              "FirstDetected": 1621321200000,
+              "LastDetected": 1652770800000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["Privacy Compliance"],
+              "Name": "OneTrust",
+              "Description": "Cookie compliance system.",
+              "Link": "https://onetrust.com/",
+              "Tag": "widgets",
+              "FirstDetected": 1633158000000,
+              "LastDetected": 1633158000000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Categories": ["Open Source", "Blog"],
+              "Name": "WordPress",
+              "Description": "WordPress is a state-of-the-art semantic personal publishing platform with a focus on aesthetics, web standards, and usability.",
+              "Link": "https://wordpress.org",
+              "Tag": "cms",
+              "FirstDetected": 1633158000000,
+              "LastDetected": 1633158000000,
+              "IsPremium": "no"
+            },
+            {
+              "Categories": ["WordPress Hosting", "US hosting"],
+              "Name": "WP Engine",
+              "Description": "WP Engine provides WordPress hosting for demanding business owners and bloggers.",
+              "Link": "https://wpengine.com/",
+              "Tag": "hosting",
+              "FirstDetected": 1633158000000,
+              "LastDetected": 1633158000000,
+              "IsPremium": "maybe"
+            },
+            {
+              "Name": "PHP",
+              "Description": "PHP is a widely used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML.",
+              "Link": "https://www.php.net",
+              "Tag": "framework",
+              "FirstDetected": 1633158000000,
+              "LastDetected": 1633158000000,
+              "IsPremium": "no"
+            },
+            {
+              "Parent": "CrUX Dataset",
+              "Name": "CrUX Top 50m",
+              "Description": "Relative measure of site popularity within the CrUX dataset, measured by the total number of navigations on the origin. This site is in the top 50 million.",
+              "Link": "https://developer.chrome.com/docs/crux/about/",
+              "Tag": "widgets",
+              "FirstDetected": 1672473600000,
+              "LastDetected": 1676534400000,
+              "IsPremium": "no"
+            }
+          ],
+          "FirstIndexed": 1621321200000,
+          "LastIndexed": 1707984000000,
+          "Domain": "firedeptcoffee.com",
+          "Url": "",
+          "SubDomain": "checkout"
+        },
+        {
+          "Technologies": [
+            {
+              "Categories": ["Canadian hosting"],
+              "Name": "Microsoft",
+              "Description": "This site is hosted on Microsoft infrastructure",
+              "Link": "https://www.microsoft.com",
+              "Tag": "hosting",
+              "FirstDetected": 1700553600000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            }
+          ],
+          "FirstIndexed": 1700553600000,
+          "LastIndexed": 1707984000000,
+          "Domain": "firedeptcoffee.com",
+          "Url": "",
+          "SubDomain": "mta-sts"
+        },
+        {
+          "Technologies": [
+            {
+              "Parent": "Shopify",
+              "Name": "10 Shopify Products",
+              "Description": "More than 10 products listed.",
+              "Link": "https://kb.builtwith.com/special-reports/store-product-count/",
+              "Tag": "shop",
+              "FirstDetected": 1700553600000,
+              "LastDetected": 1700553600000,
+              "IsPremium": "no"
+            }
+          ],
+          "FirstIndexed": 1700553600000,
+          "LastIndexed": 1700553600000,
+          "Domain": "firedeptcoffee.com",
+          "Url": "",
+          "SubDomain": "punchout"
+        },
+        {
+          "Technologies": [
+            {
+              "Categories": ["Schema"],
+              "Name": "Brand Schema",
+              "Description": "Brand name used by a company.",
+              "Link": "https://schema.org/Brand",
+              "Tag": "framework",
+              "FirstDetected": 1703404800000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            },
+            {
+              "Name": "Model Viewer",
+              "Description": "Display interactive 3D models on the web & in AR. Also used by Shopify.",
+              "Link": "https://modelviewer.dev",
+              "Tag": "widgets",
+              "FirstDetected": 1703404800000,
+              "LastDetected": 1707984000000,
+              "IsPremium": "no"
+            }
+          ],
+          "FirstIndexed": 1703404800000,
+          "LastIndexed": 1707984000000,
+          "Domain": "firedeptcoffee.com",
+          "Url": "dd",
+          "SubDomain": "punchout"
+        }
+      ]
+    },
+    "Meta": {
+      "Majestic": 773122,
+      "Umbrella": 0,
+      "Vertical": "",
+      "Social": null,
+      "CompanyName": "",
+      "Telephones": null,
+      "Emails": [],
+      "City": null,
+      "State": null,
+      "Postcode": null,
+      "Country": "US",
+      "Names": null,
+      "ARank": 417163,
+      "QRank": 0
+    },
+    "Attributes": {
+      "Employees": 0,
+      "MJRank": 0,
+      "MJTLDRank": 0,
+      "RefSN": 0,
+      "RefIP": 0,
+      "Followers": 0,
+      "Sitemap": 0,
+      "GTMTags": 0,
+      "QubitTags": 0,
+      "TealiumTags": 0,
+      "AdobeTags": 0,
+      "CDimensions": 0,
+      "CGoals": 0,
+      "CMetrics": 0,
+      "ProductCount": 0
+    },
+    "FirstIndexed": 1464476400000,
+    "LastIndexed": 1711177200000,
+    "Lookup": "www.firedeptcoffee.com",
+    "SalesRevenue": 445211
+  }
+]

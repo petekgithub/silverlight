@@ -1,28 +1,29 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { useLocation } from "react-router-dom";
 
 const AnalysisDetailPage = () => {
   const [technologies, setTechnologies] = useState([]);
   const [pageNumber, setPageNumber] = useState(0); // Sayfa sayısını saklamak için state
-  const [url, setUrl] = useState(""); // URL'i saklamak için state
+  const location = useLocation(); // Hook to access the current URL location
 
-  // Function to fetch data from backend when URL changes
   useEffect(() => {
+    const urlParams = new URLSearchParams(location.search); // Extract URL parameters
+    const url = urlParams.get("url"); // Get the 'url' parameter from the URL
     if (url) {
-      // URL state'i boş değilse isteği gönder
-      fetchData();
+      fetchData(url);
     }
-  }, [url]); // URL state'i değiştiğinde useEffect'in çalışmasını sağla
+  }, [location.search]);
 
   // Function to fetch data from backend
-  const fetchData = async () => {
+  const fetchData = async (url) => {
     try {
       const response = await axios.post("http://localhost:3000/analyze", {
         url: url, // Kullanıcıdan alınan URL'i gönder
       });
       const { technologies, pageCount } = response.data;
-      setTechnologies(technologies); // backend'den gelen yanıttan teknoloji bilgilerini al
-      setPageNumber(pageCount); // backend'den gelen yanıttan sayfa sayısını al
+      setTechnologies(technologies);
+      setPageNumber(pageCount);
     } catch (error) {
       console.log("Error fetching data: ", error);
     }

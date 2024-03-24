@@ -2,39 +2,38 @@ const express = require("express");
 const axios = require("axios").default;
 const router = express.Router();
 
-// Endpoint for URL validation and analysis
+// Endpoint to analyze website
 router.post("/", async (req, res) => {
   const { url } = req.body;
 
-  // Validate URL
-  const urlRegex =
-    /^(https?:\/\/)?([\w-]+\.)*([\w-]+\.)([\w]{2,})([\w\/+=%&_\.~?\-]*)$/;
-  if (!urlRegex.test(url)) {
-    return res.status(400).json({ error: "Invalid URL" });
-  }
-
-  // API key for builtwith.com
-  const apiKey = process.env.BUILTWITH_API_KEY;
-
   try {
-    // Make request to builtwith.com API
-    const response = await axios.get("https://api.builtwith.com/v19/api.json", {
-      params: {
-        KEY: apiKey,
-        LOOKUP: url,
-      },
-    });
+    // Make a request to Scraper API using the provided URL
+    const response = await axios.get(
+      `https://api.scraperapi.com/?api_key=${
+        process.env.API_KEY
+      }&url=${encodeURIComponent(url)}`
+    );
 
-    // Extract technology information from the response
-    const technologies = response.data.Results.map((result) => result.Name);
+    // Extract technology information and page count from the response
+    const { technologies, pageCount } = extractDataFromResponse(response.data);
 
-    return res.status(200).json({ success: true, technologies });
+    // Send the extracted data to the client
+    res.status(200).json({ success: true, technologies, pageCount });
   } catch (error) {
-    console.error(error);
-    return res
+    console.error("Error fetching data: ", error);
+    res
       .status(500)
       .json({ error: "An error occurred while analyzing the website" });
   }
 });
+
+// Function to extract data from the response received from Scraper API
+function extractDataFromResponse(data) {
+  // For now, returning dummy data
+  return {
+    technologies: ["Technology1", "Technology2", "Technology3"],
+    pageCount: 10,
+  };
+}
 
 module.exports = router;
