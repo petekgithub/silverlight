@@ -4,13 +4,14 @@ import validator from "validator";
 const UrlInput = ({ onSubmit }) => {
   const [url, setUrl] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const inputUrl = e.target.value;
     setUrl(inputUrl);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!url) {
@@ -28,9 +29,20 @@ const UrlInput = ({ onSubmit }) => {
       return;
     }
 
-    onSubmit(urlToValidate); // Pass the validated URL to the parent component for analysis
-    setUrl("");
-    setErrorMessage("");
+    // Loading durumunu true yap
+    setLoading(true);
+
+    try {
+      await onSubmit(urlToValidate); // Valid URL'i ana bileşen için analiz etmek üzere ile
+      setUrl("");
+      setErrorMessage("");
+    } catch (error) {
+      console.error("Error submitting URL for analysis: ", error);
+      setErrorMessage("An error occurred, please try again");
+    } finally {
+      // İşlem tamamlandığında Loading durumunu false yap
+      setLoading(false);
+    }
   };
 
   return (
@@ -43,8 +55,9 @@ const UrlInput = ({ onSubmit }) => {
         onChange={handleChange}
       />
       <span style={{ fontWeight: "bold", color: "red" }}>{errorMessage}</span>
-      <button className="btn-analyse" type="submit">
-        Analyze
+      {/* Loading durumunu kontrol et ve uygun şekilde işlem yap */}
+      <button className="btn-analyse" type="submit" disabled={loading}>
+        {loading ? "Loading..." : "Analyze"}
       </button>
     </form>
   );

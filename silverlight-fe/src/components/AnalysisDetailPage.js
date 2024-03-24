@@ -4,7 +4,8 @@ import { useLocation, Link } from "react-router-dom";
 
 const AnalysisDetailPage = () => {
   const [technologies, setTechnologies] = useState([]);
-  const [pageNumber, setPageNumber] = useState(0);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
   const location = useLocation();
 
   useEffect(() => {
@@ -17,14 +18,18 @@ const AnalysisDetailPage = () => {
 
   const fetchData = async (url) => {
     try {
+      setLoading(true);
       const response = await axios.post("http://localhost:3000/analyze", {
         url: url,
       });
-      const { technologies, pageCount } = response.data;
+      const { technologies } = response.data;
       setTechnologies(technologies);
-      setPageNumber(pageCount);
+      setError(null);
     } catch (error) {
       console.log("Error fetching data: ", error);
+      setError("An error occurred while fetching data");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -34,13 +39,21 @@ const AnalysisDetailPage = () => {
         &lt; Back
       </Link>
       <h2>Website Analysis Results</h2>
-      <p className="found">{pageNumber} Pages Found</p>
-      <p>Technologies:</p>
-      <ul className="techs">
-        {technologies.map((tech, index) => (
-          <li key={index}>{tech}</li>
-        ))}
-      </ul>
+
+      {error && <p style={{ color: "red" }}>{error}</p>}
+
+      {loading ? (
+        <p>Loading...</p>
+      ) : (
+        <>
+          <p>Technologies:</p>
+          <ul className="techs">
+            {technologies.map((tech, index) => (
+              <li key={index}>{tech}</li>
+            ))}
+          </ul>
+        </>
+      )}
     </div>
   );
 };

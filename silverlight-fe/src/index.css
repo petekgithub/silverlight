@@ -63,6 +63,10 @@ h3 {
   width: 100%; /* Make button full-width */
 }
 
+.back-link {
+  color: #007bff;
+}
+
 .view-more-link {
   cursor: pointer;
   text-decoration: underline;
@@ -98,6 +102,8 @@ h3 {
   background-color: #c5c5c5;
   color: #313030;
   width: 100%;
+  max-height: 200px; /* Set maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
 }
 /* Responsive */
 @media (max-width: 768px) {
