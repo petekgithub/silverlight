@@ -7,6 +7,7 @@ const AnalysisDetailPage = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const location = useLocation();
+  const [pageCount, setPageCount] = useState(0);
 
   useEffect(() => {
     const urlParams = new URLSearchParams(location.search);
@@ -22,8 +23,9 @@ const AnalysisDetailPage = () => {
       const response = await axios.post("http://localhost:3000/analyze", {
         url: url,
       });
-      const { technologies } = response.data;
+      const { technologies, pageCount } = response.data;
       setTechnologies(technologies);
+      setPageCount(pageCount);
       setError(null);
     } catch (error) {
       console.log("Error fetching data: ", error);
@@ -46,12 +48,15 @@ const AnalysisDetailPage = () => {
         <p>Loading...</p>
       ) : (
         <>
+          <p className="pages">{pageCount} Pages Found </p>
           <p>Technologies:</p>
-          <ul className="techs">
+          <div className="techs">
             {technologies.map((tech, index) => (
-              <li key={index}>{tech}</li>
+              <div key={index} className="tech">
+                {tech}
+              </div>
             ))}
-          </ul>
+          </div>
         </>
       )}
     </div>
