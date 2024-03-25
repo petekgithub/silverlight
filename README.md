@@ -1,6 +1,6 @@
-- Silverlight Project Information
+# Silverlight Project Information
 
-  - For Silverlight, they requested a custom dashboard in which they can enter the URL of the website, and retrieve information about the website’s technology and how many pages the website contains.
+- For Silverlight, they requested a custom dashboard in which they can enter the URL of the website, and retrieve information about the website’s technology and how many pages the website contains.
 
 - Libraries/Frameworks/Modules
 
