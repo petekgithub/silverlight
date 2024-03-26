@@ -6,7 +6,8 @@
 
   - ReactJS
   - NodeJs
-  - Scraper API (Web Scraping API)
+  - Scraper API (Web API)
+  - Node.js web scraping libraries (Cheerio, Puppeteer)
 
 - Running the Backend
 
