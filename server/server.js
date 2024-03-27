@@ -1,8 +1,7 @@
-// backend/server.js
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const analyzeRouter = require("./scraper/analyzeRouter");
+const analyzeScraper = require("./scraper/analyzeScraper");
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -14,7 +13,9 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Use the analyze router
-app.use("/analyze", analyzeRouter);
+app.use("/analyze", analyzeScraper);
+
+module.exports = app; // Export the express app
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

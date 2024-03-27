@@ -9,6 +9,29 @@ const router = express.Router();
 // Use CORS middleware
 router.use(cors());
 
+// Function to scrape page count
+async function scrapePageCount(url) {
+  // Launch a headless browser
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+
+  // Navigate to the website URL
+  await page.goto(url);
+
+  // Get page count
+  const pageCount = await page.evaluate(() => {
+    // Select the pagination element
+    const pageNumbers = document.querySelectorAll(".pagination li");
+    // Return the length of pagination elements
+    return pageNumbers.length;
+  });
+
+  // Close the browser
+  await browser.close();
+
+  return pageCount;
+}
+
 // Endpoint to analyze website
 router.post("/", async (req, res) => {
   const { url } = req.body;
@@ -41,21 +64,8 @@ router.post("/", async (req, res) => {
     // Filter out duplicate technology names
     const uniqueTechnologies = Array.from(new Set(technologies));
 
-    // Launch a headless browser
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-
-    // Navigate to the website URL
-    await page.goto(url);
-
-    // Get page count
-    const pageCount = await page.evaluate(() => {
-      const pageNumbers = document.querySelectorAll(".pagination li");
-      return pageNumbers.length;
-    });
-
-    // Close the browser
-    await browser.close();
+    // Scrape page count
+    const pageCount = await scrapePageCount(url);
 
     // Send the extracted data to the client
     res.status(200).json({
