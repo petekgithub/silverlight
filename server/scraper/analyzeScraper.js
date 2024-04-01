@@ -1,36 +1,13 @@
 const express = require("express");
 const axios = require("axios").default;
-const cheerio = require("cheerio");
-const puppeteer = require("puppeteer");
 const cors = require("cors");
+const technologyExtractor = require("./technologyExtractor");
+const pageCountScraper = require("./pageCountScraper");
 
 const router = express.Router();
 
 // Use CORS middleware
 router.use(cors());
-
-// Function to scrape page count
-async function scrapePageCount(url) {
-  // Launch a headless browser
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-
-  // Navigate to the website URL
-  await page.goto(url);
-
-  // Get page count
-  const pageCount = await page.evaluate(() => {
-    // Select the pagination element
-    const pageNumbers = document.querySelectorAll(".pagination li");
-    // Return the length of pagination elements
-    return pageNumbers.length;
-  });
-
-  // Close the browser
-  await browser.close();
-
-  return pageCount;
-}
 
 // Endpoint to analyze website
 router.post("/", async (req, res) => {
@@ -49,28 +26,16 @@ router.post("/", async (req, res) => {
 
     const html = response.data;
 
-    // Load the HTML into Cheerio
-    const $ = cheerio.load(html);
-
     // Extract technology information
-    const technologies = [];
-    $("script[src], link[href]").each((index, element) => {
-      const src = $(element).attr("src");
-      const href = $(element).attr("href");
-      if (src) technologies.push(extractTechName(src));
-      if (href) technologies.push(extractTechName(href));
-    });
-
-    // Filter out duplicate technology names
-    const uniqueTechnologies = Array.from(new Set(technologies));
+    const technologies = technologyExtractor(html);
 
     // Scrape page count
-    const pageCount = await scrapePageCount(url);
+    const pageCount = await pageCountScraper(url);
 
     // Send the extracted data to the client
     res.status(200).json({
       success: true,
-      technologies: uniqueTechnologies,
+      technologies: technologies,
       pageCount: pageCount,
     });
   } catch (error) {
@@ -88,13 +53,5 @@ router.post("/", async (req, res) => {
     }
   }
 });
-
-// Function to extract technology names from URLs
-const extractTechName = (url) => {
-  const parts = url.split("/");
-  const filename = parts[parts.length - 1];
-  const segments = filename.split("-");
-  return segments[0]; // Return the first segment as technology name
-};
 
 module.exports = router;

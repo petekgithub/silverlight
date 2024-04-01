@@ -44,7 +44,7 @@ const AnalysisDetailPage = () => {
       <Link to="/" className="back-link">
         &lt; Back
       </Link>
-      <h2>Website Analysis Results</h2>
+      <h2>epctex.com Results</h2>
 
       {loading ? (
         <p>Loading...</p>
